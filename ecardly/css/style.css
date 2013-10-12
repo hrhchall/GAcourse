@@ -34,7 +34,7 @@ body {
 
 }
 #container {
-     width: 940px;
+     width: 960px;
      margin: 0 auto;
 }
 
@@ -60,6 +60,10 @@ article {
      margin: 10px 0px;
      font-size: 12px;
 }
+
+.second {
+     clear: both;
+}
 a {
      color: #cc6633;
      text-transform: uppercase;
@@ -69,5 +73,18 @@ a {
 img {
      float:left;
      margin-right: 10px;
-     
+}
+
+aside {
+     float:left;
+     width: 290px;
+     background:white;
+     padding: 10px;
+     font-size: 12px;
+     margin: 10px 0 0 10px;
+}
+
+main {
+     float:left;
+     width: 640px;
 }

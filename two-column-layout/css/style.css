@@ -1,5 +1,40 @@
+#header {
+	background-color: blue;
+	padding: 10px;
+}
 
+h1 {
+	color: white;
+	font-size: 30px;
+	font-family: helvetica;
+	padding: 5px;
+}
 
+#container {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #ccc;
+}
+
+#content {
+	width: 560px;
+	background-color: white;
+	float:left;
+}
+.sidebar {
+	float: left;
+	background-color: #F00;
+	width: 200px;
+}
+#footer {
+	clear:both;
+
+}
+
+.alignleft {
+	float:left;
+	margin: 10px;
+}
 
 
 

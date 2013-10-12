@@ -1,0 +1,29 @@
+.container {
+	width: 800px;
+	margin: 10px auto;
+	background: #ccc;
+}
+.box {
+	width: 100px;
+	height: 100px;
+	margin:10px;
+	padding: 10px;
+	background: blue;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clearfix:after {
+	content: "."; /* expands collapsed parent to clear*/
+	display:block;
+	clear:both; /* sets the '.' content to clear past*/
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clear {
+	clear: both;
+}
