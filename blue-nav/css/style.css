@@ -4,13 +4,134 @@
 /*        GENERAL             *
 /*****************************/	
 
+body {
+	background-image: url('../images/bg-gradient.jpg');
+	font-family: helvetica;
+	font-size: 16px;
+	line-height: 1.5;
+}
 
-
+#container {  /* we center our container */
+	width:780px; 
+	margin: 30px auto; 
+	}
 
 
 /*****************************/		
 /*  CSS SPRITE NAVIGATION     *
 /*****************************/	
-	
+	.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+nav {
+	width: 415px;
+	height: 68.3px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+li a {
+	float:left;
+	width: 138.3px;
+	height: 68px;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul li a {
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		display: block;
+		height: 68.3px;
+		width: 120px;
+		background-image: url('../images/menu-sprite.jpg');
+		background-position-y: 0px;
+	}
+
+nav ul li a:hover {
+	background-position-y:135px;
+}
+
+nav ul li a.active {
+	background-position-y:66px;
+}
+
+nav ul li a.about {
+ 	background-position-x: -121px;
+ 	width: 125px;
+ }
+
+ nav ul li a.contact {
+ 	background-position-x: -250px;
+	width: 170px;
+ }
+
+ article {
+		background-color: white;
+		margin: 0px auto;
+		width: 860px;
+		padding:20px;
+	}
+
+	//** ignore
+
+nav ul li a.about {
+	background-image: url('../images/menu-sprite.jpg');
+ 	background-position-x: -121px;
+}
+
+.socialmedia ul li a:hover {
+	background-image: url('../images/menu-sprite.jpg');
+	background-position-y: 135px;
+}
+
+.socialmedia ul li a:active {
+	background-image: url('../images/menu-sprite.jpg');
+	background-position-y: 68px;
+}
+
+ li.about a:hover {
+ 	background-image: url('../images/menu-sprite.jpg');
+ 	background-position-x: -121px;
+
+ }
+
+ li.about a:active {
+ 	background-image: url('../images/menu-sprite.jpg');
+ 	background-position-x: -120px;
+ }
+
+ li.contact a:hover {
+ 	background-image: url('../images/menu-sprite.jpg');
+ 	background-position-x: 150px;
+ }
+ li.contact a:active {
+ 	background-image: url('../images/menu-sprite.jpg');
+ 	background-position-x: 180px;
+ }
+
+ li.home a:hover {
+ 	background-position-x:0px;
+ 	background-image: url('../images/menu-sprite.jpg');
+ }
+
+ li.home a:active {
+ 	background-position-x:5px;
+ 	background-image: url('../images/menu-sprite.jpg');
+	}
+	nav ul li a.active {
+		background-image: url('../images/menu-sprite.jpg');
+		background-position-y:68px;
+	}
 
 	
+
+	**//
