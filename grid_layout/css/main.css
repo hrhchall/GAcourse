@@ -132,6 +132,26 @@ h1 {
     font-family: 'Prosto One', cursive;
 }
 
+#first {
+    background-color: black;
+    color: grey;
+    border-radius: 25px;
+}
+
+#footer {
+     background-color: black;
+    color: grey;
+    border-radius: 25px;
+}
+
+#footer p {
+    padding: 10px;
+    padding-bottom: 0;}
+
+#first p {
+    padding: 10px;
+    padding-bottom: 0;
+}
 
 
 
