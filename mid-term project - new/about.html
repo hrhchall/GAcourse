@@ -6,24 +6,84 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Reuben Binns</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/normalize.css">        
+        <link rel="stylesheet" href="css/skeleton.css">
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,500italic,500,400italic,300italic,300,100' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        
     </head>
-    <body>
-    
-       
+    <body id="wrap">
+      <header>
+        <div class="sixteen columns">
+          <div class="three columns logo">
+            <a href="index.html">
+              <h1>Reuben Binns 
+              </h1>
+            </a>
+          </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+          <div class="seven columns menu">
+            <nav class="clearfix">
+              <ul>
+                <li> <a href="contact.html"> Contact </a></li>
+                <li> <a href="blog.html"> Blog </a></li>
+                <li> <a href="work.html"> Work </a></li>
+                <li id="about"> <a href="about.html"> About </a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <div class="container" id="main">
+        <div class="sixteen columns main content_about">
+          <h2>About</h2>
+            <hr>
+              <hr class="orange">
+                <div class="eight columns alpha left">
+                    <p>I am a PhD researcher at the University of Southampton, a member of the Web and Internet Science Research Group, conducting interdisciplinary research between the Faculty of Business and Law, and the Department of Electronics and Computer Science. 
+                        <br> 
+
+                    <br> My research interests include ethical and legal aspects of personal data, open data, and information governance. I hold an MSc and BA from the University of Cambridge.
+
+                    I am also a researcher and consultant at Ctrl-Shift, a market analyst and consulting business that helps organisations understand the implications and embrace the opportunities arising from the changing personal data landscape. 
+                    </p>
+                </div> <!-- closed eight columns -->
+
+          <div class="eight columns omega right">
+                    I have expertise in internet governance and am a graduate of the Internet Society's Next Generation Leaders programme. I am a member of the UK affiliate team for Creative Commons, an international non-profit organisation who maintain a suite of standardised content licenses which provide a flexible range of protections and freedoms for authors, artists, and educators. <br> 
+                    <br>
+                    Previously I've worked with SME's to develop services based on personal data analytics. I also participate in various working groups, including Open Notice, which I co-founded and is focused on advancing the usability of online notice and consent.
+                    
+          </div> <!-- closed eight columns -->
+        </div>  <!-- closed sixteen columns -->
+      </div> <!-- closed container -->
+
+      <footer>
+        <div class="sixteen columns">
+          <div class="three columns footer-text">
+            <p>&copy Copyright Reuben Binns </p>
+          </div> <!-- closed three columns -->
+                            
+          <div id="socialmedia" class="six columns">
+            <ul>
+              <li class="twitter"><a href="#">Twitter</a></li>
+              <li class="rss"><a href="#">RSS</a></li>
+              <li class="linkedin"><a href="#">LinkedIn</a></li>
+              <li class="email"><a href="#">Email</a></li>
+            </ul>
+          </div>  <!-- closed socialmedia -->
+        </div> <!-- closed sixteen columns -->
+                    </footer>
+                </div>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
@@ -34,6 +94,6 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
-   
+         
     </body>
 </html>
