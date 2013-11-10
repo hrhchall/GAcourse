@@ -39,3 +39,6 @@ function multiply(number1,number2,number3) {
 	var sum= number1*number2*number3
 }
 multiply(4,5,6);
+
+
+
