@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html,
-button,
+button, 
 input,
 select,
 textarea {
@@ -292,7 +292,7 @@ border-top: 3px #59595b solid;
 .footer-text {
   float:left;
   margin-top:30px;
-  margin-left:10px;
+  margin-left:121px;
   font-size:12px;
   font-family:'Roboto', sans-serif;
   color: #5a5a5c;
@@ -305,7 +305,6 @@ border-top: 3px #59595b solid;
 #socialmedia ul {
   list-style: none;
   padding: 0;
-  margin-bottom: -22px;
 }
 
 #socialmedia li {
@@ -318,32 +317,49 @@ border-top: 3px #59595b solid;
   white-space: nowrap;
   overflow: hidden;
   display: block;
-  height: 32px;
-  width: 21px;
+  height: 77px;
+  width: 77px;
   background-image: url('../images/sprite.png');
   float: right;
-  padding-left: 50px;
 }
 
 
 li.twitter a {
-  background-position-x: 1103px;
-  background-position-y: 211px;
-  background-position: 1103px 211px;
+  background-position-x: 1092px;
+  background-position-y: 233px;
+  background-position: 1092px 233px;
+}
+
+li.twitter a:hover {
+    background-position-x: 1092px;
+  background-position-y: 310px;
+  background-position: 1092px 310px;
 }
 
 
 li.rss a {
-  background-position-x: 404px;
-  background-position-y: 211px;
-  background-position: 404px 211px;
+  background-position-x: 390px;
+  background-position-y: 233px;
+  background-position: 390px 233px;
 
 }
 
+li.rss a:hover {
+   background-position-x: 390px;
+  background-position-y: 310px;
+  background-position: 390px 310px;
+}
+
 li.linkedin a {
-  background-position-x: 874px;
-  background-position-y: 211px;
-  background-position: 874px 211px;
+  background-position-x: 857px;
+  background-position-y: 233px;
+  background-position: 857px 233px;
+}
+
+li.linkedin a:hover {
+  background-position-x: 857px;
+  background-position-y: 310px;
+  background-position: 857px 310px;
 }
 
 .footer_column {
@@ -578,6 +594,10 @@ margin-top:30px;
 
 }
 
+#contact-form label.error {
+  margin-top:-26px;
+  color:orangered;
+}
 
 /* media queries */ 
 /* Tablet Layout: 768px.
@@ -611,6 +631,11 @@ margin-top:30px;
 
 .logo img {
   width:25px;
+}
+
+.logo {
+  top:56%;
+  left:68%;
 }
 #accordian h2 {
 font-size:18px;
@@ -660,6 +685,10 @@ font-weight:500;
 
   .about_banner {
     width:763px;
+}
+
+.footer-text {
+  margin-left:52px;
 }
 }
 
@@ -732,7 +761,7 @@ font-weight:500;
 
 .logo {
   top:60%;
-  left:80%;
+  left:73%;
 }
 .logo img {
   width:25px;
@@ -751,6 +780,10 @@ font-weight:500;
   float:none;
 }
 
+.footer-text {
+    margin-left:47px;
+  }
+
 .footer_column {
   width:200px;
 }
@@ -760,7 +793,7 @@ font-weight:500;
   font-weight:400;
 }
 .container{
-  width: 380px;
+  width: 420px;
 }
 .bottom-columns {
   width:380px;
@@ -768,6 +801,7 @@ font-weight:500;
 
 #contact-form {
   background-image:url('../images/contact_form_endterm_small.png');
+  margin-left:20px;
 }
 #contact-form input[type="text"] {
   margin-left:70px;
@@ -795,12 +829,24 @@ font-weight:500;
   width:80px;
   }
 
+#form_wrap {
+  padding-left:20px;
+}
+
+    #socialmedia ul {
+    padding-left:23px;
+  }
+
 }
 
 /* Wide Mobile Layout: 480px.
  */
 
  @media only screen and (min-width:480px) and (max-width: 569px) {
+
+  #socialmedia ul {
+    padding-left:23px;
+  }
 
 .logo_bottom_page {
     margin-left:180px;
@@ -872,7 +918,7 @@ font-weight:500;
 
 .logo {
   top:60%;
-  left:80%;
+  left:73%;
 }
 .logo img {
   width:25px;
@@ -900,7 +946,7 @@ font-weight:500;
   font-weight:500;
 }
 .container{
-  width: 380px;
+  width: 419px;
 }
 .bottom-columns {
   width:380px;
@@ -908,6 +954,7 @@ font-weight:500;
 
 #contact-form {
   background-image:url('../images/contact_form_endterm_small.png');
+  margin-left:20px;
 }
 #contact-form input[type="text"] {
   margin-left:70px;
@@ -924,7 +971,9 @@ font-weight:500;
   font-size:14px;
   margin-top:-34px;
   }
-
+.footer-text {
+    margin-left:47px;
+  }
 }
 /* Mobile Layout: 320px.
  * Gutters: 24px.
@@ -932,6 +981,10 @@ font-weight:500;
  * Inherits styles from: Default Layout.
  */
 @media only screen and (max-width: 479px) {
+
+  .footer-text {
+    margin-left:24px;
+  }
 
    .logo_bottom_page {
     margin-left:-73px;
@@ -1036,6 +1089,10 @@ header {
 }
 #socialmedia ul li a{
   float:none;
+}
+
+#socialmedia ul {
+  margin-left:46px;
 }
 
 .footer_column {

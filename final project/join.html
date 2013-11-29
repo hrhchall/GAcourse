@@ -18,6 +18,9 @@
       <link rel="stylesheet" href="css/main.css">
       <link href='http://fonts.googleapis.com/css?family=Roboto:400,500italic,500,400italic,300italic,300,100' rel='stylesheet' type='text/css'>
       <link rel="shortcut icon" href="images/favicon.ico">
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="js/jquery.validate.js"></script>
+      <script src="js/jquery_form_validate.js"></script>
     </head>
     <body id="contact-page">
       <header class= "nav-bar">
@@ -47,26 +50,26 @@
           <form id="contact-form" method action name="contactform">
             <div class="field" id="name-field">
               <label for="name"> Name: </label>
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name"/>
             </div>
             <div class="field" id="email-field">
               <label for="email"> Email address: </label>
-                <input type="text" name="email" id="email">
+                <input type="text" name="email" id="email"/>
             </div>
             <div class="field" id="interests-field">
               <label for="message"> What are your areas of interest?: </label>
-                <textarea name="message" id="message"> </textarea> 
+                <textarea name="message1" id="message"/> </textarea> 
             </div>
             <div class="field" id="skills-field">
               <label for="message"> Current skills, knowledge and expertise: </label>
-                <textarea name="message" id="message"> </textarea> 
+                <textarea name="message2" id="message"/> </textarea> 
             </div>
             <div class="field" id="project-field">
               <label for="message"> Tell us about your dream project: </label>
-                <textarea name="message" id="message"> </textarea> 
+                <textarea name="message3" id="message"/> </textarea> 
             </div>
             <div class="field">
-              <input type="submit" name class="button" value=">>>  Send">
+              <input type="submit" name class="button" value=">>>  Send"/>
             </div>
           </form>
         </div><!-- closed form wrap -->
@@ -87,7 +90,7 @@
             <li class="linkedin"><a href="#">LinkedIn</a></li>
           </ul>
         </div>  <!-- closed socialmedia -->
-        <div class="row five columns offset-by-eleven">
+        <div class="row six columns offset-by-ten">
           <p class= "footer-text">&copy Copyright Dream Team project </p>
         </div> <!-- closed five columns -->
       </footer>
