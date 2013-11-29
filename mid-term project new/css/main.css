@@ -325,53 +325,37 @@ img {
 
 
 li.twitter a {
-  background-position-x: 404px;
-  background-position-y: 263px;
   background-position: 404px 263px;
 }
 
 li.twitter a:hover {
-  background-position-x: 404px;
-  background-position-y: 297px;
   background-position: 404px 297px;
   
 }
 
 li.rss a {
-  background-position-x: 253px;
-  background-position-y: 262px;
   background-position: 253px 262px;
 
 }
 
 li.rss a:hover {
-  background-position-x: 253px;
-  background-position-y: 296px;
   background-position: 253px 296px;
 }
 
 li.email a {
-  background-position-x: -254px;
-  background-position-y: 84px;
   background-position: -254px 84px;
 }
 
 li.email a:hover {
-  background-position-x: -254px;
-  background-position-y: 118px;
   background-position: -254px 118px;
   
 }
 
 li.linkedin a {
-  background-position-x: 98px;
-  background-position-y: 173px;
   background-position: 98px 173px;
 }
 
 li.linkedin a:hover {
-  background-position-x: 98px;
-  background-position-y: 207px;
   background-position: 98px 207px;
   
 }
