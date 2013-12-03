@@ -103,7 +103,6 @@ textarea {
   box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-
 body {
 background-color: #d9d9d9 repeat;
 margin: 0 auto;
@@ -1077,7 +1076,7 @@ nav li a {
   margin-right:1px;
   padding:0px;
   width:260px;
-  margin-left:69px;
+  margin-left:38px;
   margin-bottom:-53px;
 }
 
@@ -1154,6 +1153,20 @@ margin-left:25px;
 
 .eight.columns.omega.right {
   padding-bottom:10px;
+}
+
+footer .footer-text {
+  padding-left:31px;
+}
+
+#socialmedia ul li a {
+
+  padding-left: 13px
+}
+
+#socialmedia li {
+
+  margin-right: 37px
 }
 }
 /* Mobile Layout: 320px.

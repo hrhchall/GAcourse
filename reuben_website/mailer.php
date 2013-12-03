@@ -7,17 +7,11 @@ $name = check_input($_POST['name'], "Enter your name");
 $subject = check_input($_POST['subject'], "Enter a subject");
 $email = check_input($_POST['email']);
 $message = check_input($_POST['message'], "Write your message");
-$captcha = check_input($_POST['captcha']);
 
 /* If e-mail is not valid show error message */
 if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
 {
 show_error("E-mail address not valid");
-}
-
-if (!preg_match("/5/", $captcha))
-{
-show_error("Check your math, Dude");
 }
 /* Let's prepare the message for the e-mail */
 $message = "
@@ -35,7 +29,7 @@ $message
 mail($myemail, $subject, $message);
 
 /* Redirect visitor to the thank you page */
-header('thankyou.html');
+header('Location:thankyou.html');
 exit();
 
 /* Functions we used */
