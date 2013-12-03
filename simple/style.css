@@ -1,0 +1,222 @@
+/*   
+Theme Name: Simple Wordpress Site (960gs)
+Theme URI: http://felixcohen.co.uk
+Description: A blank frame work using 960.gs grid system and is licensed under the <a href="http://www.opensource.org/licenses/gpl-license.php">GPL</a>.
+Author: Felix Cohen
+Author URI: http://felixcohen.co.uk
+Version: 0.0.1
+Tags: light, two-columns, fixed-width
+*/
+
+@import url('reset.css');
+@import url('typography.css');
+@import url('grid.css');
+@import url('forms.css');
+
+/* images */
+
+.img {
+	min-height: 670px;
+}
+
+
+/* header */
+.header {
+        padding: 0px 0px 50px 0px;
+}
+#header-wrap h1 {
+        padding: 0px;
+        margin: 0px;
+        float: left;
+}
+
+#header-wrap .description {
+}
+
+#search-bar {
+        width: 300px;
+        float: right;
+		padding-bottom: 10px;
+}
+
+#sidebar { 
+	width: 100%;
+}
+
+#sidebar-wrap {
+	margin-top: 30px;
+}
+
+/* links */
+a:link, a:visited {
+	color: #006699;
+	text-decoration: none;
+	}
+	
+a:hover {
+	text-decoration: underline;
+	}
+
+/* navigation */
+
+#nav-bar {
+    border-bottom: solid 1px #ccc;
+	width: 960px;
+	height: 26px;
+	margin: 10px 0px 50px 0px;
+	padding: 0px 0px 20px 0px;
+}
+	
+#navbar-left {
+	height: 26px;
+	float: left;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	}
+	
+#navbar-right {
+	width: 30px;
+	height: 26px;
+	float: right;
+	margin: 0px;
+	padding: 0px 10px 0px 0px;
+	text-align: right;
+	}
+	
+#navbar-right a img {
+	border: none;
+	margin: 5px 0px 0px 0px;
+	padding: 0px;
+	}
+
+#nav {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	}
+	
+#nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	}
+
+#nav a {
+	display: block;
+        font-weight: bold;
+        margin: 0px 20px 0px 0px;
+	padding: 6px 10px 5px 10px;
+	}
+	
+#nav a:hover {
+	display: block;
+	text-decoration: underline;
+        margin: 0px 20px 0px 0px;
+	padding: 6px 10px 5px 10px;
+	}
+
+#nav li {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	}
+#nav li li {
+	display: none;
+	}
+	
+ul.places	{padding: 0 0 0 0; margin: 0 0 0 10px;}
+	
+ul.places li { display:inline;	font-family: Futura, Helvetica Neue, Helvetica, Arial, sans-serif; }
+
+ul.places li a 
+{
+	color: #000!important;
+}
+/* header */
+
+#footer {
+        margin: 30px 0px 30px 0px;
+        padding: 30px 0px 30px 0px;
+        border-top: solid 3px #ccc;
+}
+
+/* sidebar */
+
+#sidebar ul li {
+	float:left;
+	width:120px;
+	display: inline;
+	
+}
+/* Misc */
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption-dd {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+/* post */
+.meta {
+	margin: 10px 0;
+}
+
+.right {
+	float: right;
+	
+}
+/* Post */
+#comments {
+        margin:20px 0px 10px 0px;
+        padding:20px 0px 10px 0px;
+        border-top: solid 1px #ccc;
+}
+#postcomment {
+        margin:20px 0px 10px 0px;
+        padding:20px 0px 10px 0px;
+        border-top: solid 1px #ccc;
+}
+
+.entry-content {
+	font-size: 120%;
+	
+}
+
+h2.storytitlefirst a, h2.storytitle a { color: #111; line-height: 1.2;}
+h2.storytitle {margin-top: 10px;}
+h2.storytitlefirst {margin-top: 0px;}
+#post-entries {
+        padding: 0px 0px 20px 0px;
+        margin: 0px 0px 20px 0px;
+        border-bottom: solid 1px #ccc
+}
