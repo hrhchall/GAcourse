@@ -291,8 +291,6 @@ img {
 
  footer p {
   margin-top: 1px;
-  float:left;
-  margin-left: 66px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300px;
   font-size: 12px;
@@ -322,12 +320,12 @@ footer .footer-text {
 margin-top:-45px;
 float:left;
 position:absolute;
+padding-left:64px;
 }
 
 footer .footer-text img {
-margin-bottom:-13px;
-padding-top:30px;
-padding-left:50px;
+margin-bottom:-15px;
+margin-left:-15px;
 }
  /* image sprite */
 
@@ -1330,7 +1328,8 @@ footer p {
 
 footer .footer-text img {
 padding-left:0px;
-margin-left:30px;
+margin-left:-38px;
+padding-top:35px;
 }
 
 footer .footer-text {
@@ -1348,6 +1347,10 @@ footer .footer-text a {
 
 .eight.columns.omega.right {
   padding-bottom:10px;
+}
+
+a.license {
+  display:none;
 }
 
 }
