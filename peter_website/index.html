@@ -20,8 +20,24 @@
     <link rel="stylesheet" href="css/main.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,500italic,500,400italic,300italic,300,100' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="images/favicon.ico">
+    <script type="text/javascript" src="js/preloader.js"></script>
+    <script>
+
+$(document).ready(function (){
+              
+                $("body").queryLoader2({onComplete: function () {
+                                        document.getElementById('linea').style.visibility = 'visible';
+                                          document.getElementById('page').style.visibility = 'visible';
+                                        document.getElementById('page').style.display = 'none';
+                                        $('#page').fadeTo(700,1);
+                                        } ,barHeight: 7, backgroundColor:"ffffff"});
+ 
+              });
+
+    </script>
   </head>
   <body>
+    <div id="linea"> </div>
     <div id="page">
       <nav class="clearfix">
         <div id="logo" class="three columns">
@@ -223,5 +239,6 @@
     <script type="text/javascript" src="js/jquery.mousewheel-3.0.4.pack.js"></script>
     <script src="js/fancyboxscript.js"></script> 
     <script src="js/jquery_carousel2.js"></script>
+    <script type="text/javascript" src="js/preloader.js"></script>
 </body>      
 </html>

@@ -140,6 +140,8 @@ nav {
 #linea {
   height:5px;
   background-color:#000;
+  position:fixed;
+  z-index: 1020;
 }
 
 #page {
