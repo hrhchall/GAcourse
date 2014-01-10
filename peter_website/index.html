@@ -20,26 +20,16 @@
     <link rel="stylesheet" href="css/main.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,500italic,500,400italic,300italic,300,100' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="images/favicon.ico">
-    <script type="text/javascript" src="js/preloader.js"></script>
-    <script>
 
-$(document).ready(function (){
-              
-                $("body").queryLoader2({onComplete: function () {
-                                        document.getElementById('linea').style.visibility = 'visible';
-                                          document.getElementById('page').style.visibility = 'visible';
-                                        document.getElementById('page').style.display = 'none';
-                                        $('#page').fadeTo(700,1);
-                                        } ,barHeight: 7, backgroundColor:"ffffff"});
- 
-              });
-
-    </script>
   </head>
   <body>
-    <div id="linea"> </div>
+    <!-- Preloader -->
+  <div id="preloader">
+    <div id="status">&nbsp;</div>
+  </div>
     <div id="page">
       <nav class="clearfix">
+        <div id="linea"> </div>
         <div id="logo" class="three columns">
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           width="191px" height="140.667px" viewBox="-22.667 0 161 83.667" enable-background="new -22.667 0 161 83.667" xml:space="preserve">
@@ -182,7 +172,7 @@ $(document).ready(function (){
   </div> <!--closed content-->
 </div> <!-- closed #page -->
    <!-- scripts -->
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"> </script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
   <!-- Load ScrollTo -->
   <script type="text/javascript" src="http://flesler-plugins.googlecode.com/files/jquery.scrollTo-1.4.2-min.js"></script>
   <!-- Load LocalScroll -->
@@ -239,6 +229,14 @@ $(document).ready(function (){
     <script type="text/javascript" src="js/jquery.mousewheel-3.0.4.pack.js"></script>
     <script src="js/fancyboxscript.js"></script> 
     <script src="js/jquery_carousel2.js"></script>
-    <script type="text/javascript" src="js/preloader.js"></script>
+    <script type="text/javascript">
+    //<![CDATA[
+      $(window).load(function() { // makes sure the whole site is loaded
+        $('#status').fadeOut(); // will first fade out the loading animation
+        $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+        $('body').delay(350).css({'overflow':'visible'});
+      })
+    //]]>
+  </script> 
 </body>      
 </html>
