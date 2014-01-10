@@ -410,6 +410,11 @@ body {
     margin:-100px 0 0 -100px; /* is width and height divided by two */
   }
 
+  #message {
+    text-align: center;
+    margin-top: 150px;
+}
+
 /* media queries */ 
 /* Tablet Layout: 768px.
  * Gutters: 24px.
