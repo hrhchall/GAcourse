@@ -491,7 +491,7 @@ h2 {
   -o-transform-origin: 206px 159px;
   transform-origin: 206px 159px; }
 
-#lives-details {
+#lives-details_1_ {
   -webkit-transform-origin: 206px 159px;;
   -moz-transform-origin: 206px 159px;;
   -ms-transform-origin: 206px 159px;;
@@ -519,7 +519,7 @@ h2 {
   -o-transform-origin: 191px 204px;
   transform-origin: 191px 204px; }
 
-#training-details {
+#training-details_1_ {
   -webkit-transform-origin: 191px 204px;
   -moz-transform-origin: 191px 204px;
   -ms-transform-origin: 191px 204px;
@@ -547,7 +547,7 @@ h2 {
   -o-transform-origin: 372px 319px;
   transform-origin: 372px 319px; }
 
-#experience-details {
+#experience-details_1_ {
   -webkit-transform-origin: 372px 319px;
   -moz-transform-origin: 372px 319px;
   -ms-transform-origin: 372px 319px;
@@ -576,7 +576,7 @@ h2 {
   -o-transform-origin: 342px 161px;
   transform-origin: 342px 161px; }
 
-#education-details {
+#education-details_1_ {
   -webkit-transform-origin: 342px 161px;
   -moz-transform-origin: 342px 161px;
   -ms-transform-origin: 342px 161px;
@@ -599,7 +599,7 @@ h2 {
   transform: scale(1.8) translate(0px, 48px);
 }
 
-[id$=details] { 
+[id$=details_1_] { 
     -webkit-transform: scale(0, 0);
   -moz-transform: scale(0, 0);
   -ms-transform: scale(0, 0);
@@ -607,7 +607,7 @@ h2 {
   transform: scale(0, 0);
 }
 
-#badges > g:hover [id$=badge], #badges > g:hover [id$=details] {
+#badges > g:hover [id$=badge], #badges > g:hover [id$=details_1_] {
     -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
@@ -623,7 +623,7 @@ h2 {
   transform: scale(1) translate(0px, 0px);
 }
 
-[id$=badge], [id$=title_1_], [id$=details] {
+[id$=badge], [id$=title_1_], [id$=details_1_] {
     -webkit-transition: -webkit-transform 0.25s ease-in-out;
   -moz-transition: -moz-transform 0.25s ease-in-out;
   -o-transition: -o-transform 0.25s ease-in-out;
