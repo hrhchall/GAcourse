@@ -97,8 +97,38 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body {
+
+
+#home_body {
   background-color:#FFC800;
+}
+
+#about_body {
+  background-color: #252525;
+}
+
+#about_nav {
+  background-color: #252525;
+  border-color:#252525;
+}
+
+.container_home {
+ background-image: url('../images/pointer.png');
+  background-repeat:no-repeat;
+  background-position-x:328px;
+  background-position-y:330px;
+
+}
+
+.container_about {
+ background-image: url('../images/pointer.png');
+  background-repeat:no-repeat;
+  background-position-x:320px;
+  background-position-y:192px;
+
+}
+.container {
+ 
 }
 .navbar-default {
   background-color: #FFC800;
@@ -140,11 +170,20 @@ header #menu {
 }
 
 .navbar-default .navbar-nav li a:hover {
-  color:#161515;
+ border-bottom: 5px solid white;
+ color:white;
 }
 
+.navbar-default .navbar-nav li a:focus {
+ color:white;
+}
 .navbar-default .navbar-nav li a {
   color:white;
+  text-transform:uppercase;
+  font-size:1em;
+  font-weight:bold;
+  letter-spacing:.2em;
+  margin-left: 1.2em;
 
 }
 
@@ -159,15 +198,24 @@ ul {
 }
 
 #equals {
-  margin-top:80px;
+  margin-top:30px;
   /*margin-top:180px;*/
-  font-size:200px;
+  
  /* height:12em;
   background-image: url('../images/homepage_whitequals.png');
   background-size:14em;
   height:9em;
   background-repeat:no-repeat;
-*/
+  */
+display:inline-block;
+padding:40px;
+-webkit-animation:wobble 5s ease-in-out infinite;
+-webkit-transform-origin:center bottom;
+-webkit-transition:padding .3s, bottom .3s;
+text-align:center; }
+
+@-webkit-keyframes wobble { 33%{ -webkit-transform:rotate(5deg); } 66%{-webkit-transform:rotate(-5deg); } }
+
 }
 
 #lefthome {
@@ -182,6 +230,12 @@ ul {
 #home_text {
   /*margin-top:50px;*/
   text-align:center;
+  /*background-image: url('../images/pointer.png');
+  background-repeat:no-repeat;
+  background-position-x:3px;
+  background-position-y:330px;*/
+
+
 }
 
 h2 {
@@ -206,6 +260,131 @@ h2 {
 .navbar-collapse {
   border:none;
 }
+/* about page */ 
+
+#bird {
+  margin-top:80px;
+  margin-bottom:80px;
+  -moz-animation-duration:3s;
+  -webkit-animation-duration:3s;
+  -moz-animation-name:slidein;
+  -webkit-animation-name:slidein;
+}
+
+#quote_section {
+  background-color:white;
+}
+
+
+#quote_about {
+
+  font-size:9em;
+  margin-top:75px;
+  margin-bottom:75px;
+  padding:50px;
+}
+
+#quote_about span {
+  color:#FFC800;
+}
+
+#anatomy_me {
+  margin-top:105px;
+  margin-bottom:50px;
+  padding:40px;
+}
+
+/* SVG interactive doll */ 
+
+#stage {
+  width:960px;
+  height:700px;
+}
+
+#lives { 
+    transform-origin: 517px 484px;
+}
+#training { 
+    transform-origin: 445px 488px;
+}
+#experience { 
+    transform-origin: 310px 396px;
+}
+#education{ 
+    transform-origin: 311px 489px;
+}
+
+[id$=badge] { /* Any element with an id that ends in "badge" */
+    transform: scale(0.5, 0.5);
+}
+[id$=title] { 
+    transform: scale(1.8) translate(0px, 48px);
+}
+[id$=details] { 
+    transform: scale(0, 0);
+}
+
+#badges > g:hover [id$=badge], #badges > g:hover [id$=details] {
+    transform: scale(1, 1);
+}
+#badges > g:hover [id$=title] {
+    transform: scale(1) translate(0px, 0px);
+}
+[id$=badge], [id$=title], [id$=details] {
+    transition: transform 0.25s ease-in-out;
+}
+
+@keyframes fade-in {
+    0% { 
+        opacity: 0;
+    }
+    100% { 
+        opacity: 1;
+    }
+}
+@keyframes grow-y {
+    0% { 
+        transform: scaleY(0);
+    }
+    100% { 
+        transform: scaleY(1);
+    }
+}
+@keyframes grow-x {
+    0% { 
+        transform: scaleX(0);
+    }
+    100% { 
+        transform: scaleX(1);
+    }
+}
+@keyframes grow {
+    0% { 
+        transform: scale(0, 0);
+    }
+    100% { 
+        transform: scale(1, 1);
+    }
+}
+
+.svgLoaded #education-badge, .svgLoaded #training-badge, .svgLoaded #experience-badge, .svgLoaded #lives-badge { 
+    animation: grow 0.25s ease-in-out;
+    animation-fill-mode: backwards; 
+}
+.svgLoaded #education-badge { 
+    animation-delay: 2s; 
+}
+.svgLoaded #training-badge { 
+    animation-delay: 2.25s; 
+}
+.svgLoaded #experience-badge { 
+    animation-delay: 2.5s; 
+}
+.svgLoaded #lives-badge { 
+    animation-delay: 2.75s; 
+}
+
+
 
 /* media queries */ 
 /* Tablet Layout: 768px.
@@ -214,6 +393,20 @@ h2 {
  * Inherits styles from: Default Layout.
  */
 
+@media only screen and (max-width: 1200px) {
+  
+  .container_home {
+    background-size:105px;
+    background-position-x:254px;
+    background-position-y:237px;
+  }
+
+  .container_about {
+    background-size:105px;
+    background-position-x:254px;
+    background-position-y:237px;
+  }
+}
 
  @media only screen and (max-width: 986px) {
   header #menu {
@@ -246,6 +439,14 @@ h2 {
   .navbar-nav {
     float:none;
   }
+
+  .container_home {
+    background-image:none;
+   }
+ .container_about {
+    background-image:none;
+   }
+
   
 }
 

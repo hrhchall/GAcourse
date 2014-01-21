@@ -26,15 +26,16 @@
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     </head>
 
-  <body id="home_body">
+  <body id="about_body">
+    <section id="red" >
     <div class="container">
-      <div class="container_home">
+      <div class="container_about">
       <header class="clearfix">
-      <!-- Static navbar --> 
+      <!-- Static navbar -->
       <div class="logo col-md-3 col-xs-12 pull-left" id="logo_ontop"> 
         <img src="images/logo_whitetagline.png" id="logo"/> <!-- <h1> Holly Challenger </h1> -->
       </div><!--closed col 4-->
-      <div class="navbar navbar-default col-md-9 col-sm-12" role="navigation">
+      <div class="navbar navbar-default col-md-9 col-sm-12" id="about_nav" role="navigation">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -57,12 +58,12 @@
     <div id="home_content">
       <div class="row">
       <div class="col-md-4 col-sm-6 col-xs-3" id="lefthome">
-        <img src="images/newrussiandoll.png" class="img-responsive" alt="Responsive image" height="100"  id="equals"/>
+        <img src="images/bird.png" class="img-responsive" alt="Responsive image" height="100" id="bird"/>
 
       </div>
       <div class="col-md-8 col-xs-10 col-sm-6" id="home_text">
 
-        <h2>Beautiful & functional websites </h2>
+        <h2>About me </h2>
         <!-- <img src="images/pointer.png" class="img-responsive" alt="Responsive image" height="100"/> -->
         <p class="welcome_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -70,11 +71,24 @@
         consequat. </p>
       </div>
         </div><!-- row -->
-         <div class="col-md-6 col-md-offset-6 col-xs-9 col-sm-6">
-          
-      </div>
-    </div> <!-- /home content -->
-  </div> <!-- /container home -->
+</div> <!-- /home content -->
+</div> <!-- /container about -->
+</section>
+<section id="quote_section">
+  <div class="row">
+    <div class="col-md-12 col-xs-12 col-sm-12">
+       <blockquote id="quote_about"><span class"quotation">"</span>This is a quote about playing and creativity<span class"quotation">"</span></blockquote>
+    </div>
+  </div><!-- row -->
+</section><!-- /#quote_section -->
+ <div class="row">
+    <!-- <div class="col-md-6 col-md-offset-4 col-xs-10 col-sm-10">
+        <img src="images/newrussiandoll.png" class="img-responsive" alt="Responsive image" height="100" id="anatomy_me"/>
+    </div> -->
+    <div id="stage">
+
+    </div><!-- #stage -->
+  </div><!-- row -->
     </div> <!-- /container -->
  
 
@@ -83,5 +97,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/interactive-svg.js"></script>
   </body>
 </html>
