@@ -6,71 +6,79 @@
 <g id="background">
 </g>
 <g id="badges">
-	<g id="training-badge">
-		<g>
-			<polyline fill="none" stroke="#F9F9F9" stroke-miterlimit="10" points="343,526.5 249.576,526.5 249.883,526.5 198.79,480.753 
-							"/>
-			<ellipse fill="#EFE80F" cx="140.223" cy="379.119" rx="121.41" ry="119.237"/>
-		</g>
-		<g id="training-title_1_">
-			<rect x="78" y="300" fill="#EFE80F" width="127" height="28"/>
-			
-				<text id="training-title" transform="matrix(1.145 0 0 1 81.662 321.3667)" fill="#3A3A3A" font-family="'Roboto-Bold'" font-size="22.1844">TRAINING: </text>
-		</g>
-		<g id="training-details_1_">
-			<rect x="40" y="360" fill="#EFE80F" width="199" height="64"/>
-			<text id="training-details" transform="matrix(1 0 0 1 82.9838 366.5493)"><tspan x="0" y="0" fill="#F9F9F9" font-family="'Roboto-Bold'" font-size="20.7054">FRONT-END</tspan><tspan x="-45.242" y="24.847" fill="#F9F9F9" font-family="'Roboto-Bold'" font-size="20.7054">WEB DEVELOPMENT, </tspan><tspan x="-44.064" y="49.693" fill="#F9F9F9" font-family="'Roboto-Bold'" font-size="20.7054">GENERAL ASSEMBLY</tspan></text>
-		</g>
-	</g>
-	<g id="experience-badge">
-		
-			<ellipse transform="matrix(0.9856 0.1692 -0.1692 0.9856 90.863 -116.8454)" fill="#EFE80F" cx="731.034" cy="474.725" rx="116.266" ry="114.185"/>
-		<g>
-			<polyline fill="none" stroke="#F9F9F9" stroke-width="1.9044" stroke-miterlimit="10" points="497.575,525.215 564.242,478.084 
-				564.023,478.239 623.581,485.105 			"/>
-		</g>
-		<g id="experience-title_1_">
-			<rect x="648" y="396" fill="#EFE80F" width="166" height="28"/>
-			
-				<text id="experience-title" transform="matrix(1.1333 0 0 1 662.6826 417.2891)" fill="#3A3A3A" font-family="'Roboto-Bold'" font-size="18.5645">EXPERIENCE: </text>
-		</g>
-		<g id="experience-details_1_">
-			<rect x="634" y="437" fill="#EFE80F" width="191" height="92"/>
-			<text id="experience-details" transform="matrix(1 0 0 1 643.5253 461.4502)"><tspan x="0" y="0" fill="#F7F8F9" font-family="'Roboto-Bold'" font-size="20.7054">CO-PRODUCTION, </tspan><tspan x="37.802" y="24.847" fill="#F7F8F9" font-family="'Roboto-Bold'" font-size="20.7054">TRAINING,</tspan><tspan x="-19.558" y="49.693" fill="#F7F8F9" font-family="'Roboto-Bold'" font-size="20.7054">GROUP FACILITATION.</tspan></text>
-		</g>
-	</g>
-	<g id="lives-badge">
-		<g>
-			<polyline fill="none" stroke="#F9F9F9" stroke-miterlimit="10" points="390,215.5 300.375,215.5 300.67,215.5 251.314,171.453 
-							"/>
-			<ellipse fill="#EFE80F" cx="220.275" cy="110.745" rx="93.008" ry="91.344"/>
-		</g>
-		<g id="lives-details_1_">
-			<rect x="166" y="89" fill="#EFE80F" width="109" height="76"/>
-			<text id="lives-details" transform="matrix(1 0 0 1 146.8041 109.023)"><tspan x="0" y="0" fill="#FAFBFC" font-family="'Roboto-Bold'" font-size="20.7054">EXETER DEVON</tspan><tspan x="-3.21" y="24.847" fill="#3A3A3A" font-family="'Roboto-Bold'" font-size="20.7054">LIVES:</tspan><tspan x="58.148" y="24.847" fill="#FAFBFC" font-family="'Roboto-Bold'" font-size="20.7054"> BRIXTON</tspan><tspan x="32.281" y="49.693" fill="#FAFBFC" font-family="'Roboto-Bold'" font-size="20.7054">LONDON</tspan></text>
-		</g>
-		<g id="lives-title_1_">
-			<rect x="176" y="49" fill="#EFE80F" width="75" height="29"/>
-			
-				<text id="lives-title" transform="matrix(1 0 0 1 183.7465 72.0493)" fill="#3A3A3A" font-family="'Roboto-Bold'" font-size="23.6633">LIVES: </text>
-		</g>
-	</g>
-	<g id="education-badge">
-		<g>
+	<g id="education">
+		<g id="education-badge">
 			<g>
-				<polyline fill="none" stroke="#F9F9F9" stroke-width="1.479" stroke-miterlimit="10" points="497.871,285.095 542.706,240.261 
-					542.558,240.408 589.046,237.837 				"/>
+				<g>
+					<polyline fill="none" stroke="#F9F9F9" stroke-width="1.479" stroke-miterlimit="10" points="497.871,285.095 542.706,240.261 
+						542.558,240.408 589.046,237.837 					"/>
+				</g>
+				<ellipse fill="#EFE80F" cx="675.607" cy="195.786" rx="98.279" ry="96.52"/>
 			</g>
-			<ellipse fill="#EFE80F" cx="675.607" cy="195.786" rx="98.279" ry="96.52"/>
+			<g id="education-details_1_">
+				<rect x="617" y="181" fill="#EFE80F" width="118" height="56"/>
+				<text id="education-details" transform="matrix(1 0 0 1 614.5781 202.8208)"><tspan x="0" y="0" fill="#F7F8F9" font-family="'Roboto-Bold'" font-size="20.7054">CAMBRIDGE </tspan><tspan x="2.128" y="24.846" fill="#F7F8F9" font-family="'Roboto-Bold'" font-size="20.7054">UNIVERSITY</tspan></text>
+			</g>
+			<g id="education-title_1_">
+				<rect x="615" y="127" fill="#EFE80F" width="120" height="38"/>
+				
+					<text id="education-title" transform="matrix(1 0 0 1 607.748 155.6109)" fill="#3A3A3A" font-family="'Roboto-Bold'" font-size="23.6633">EDUCATION:</text>
+			</g>
 		</g>
-		<g id="education-details_1_">
-			<rect x="617" y="181" fill="#EFE80F" width="118" height="56"/>
-			<text id="education-details" transform="matrix(1 0 0 1 614.5781 202.8208)"><tspan x="0" y="0" fill="#F7F8F9" font-family="'Roboto-Bold'" font-size="20.7054">CAMBRIDGE </tspan><tspan x="2.128" y="24.846" fill="#F7F8F9" font-family="'Roboto-Bold'" font-size="20.7054">UNIVERSITY</tspan></text>
+	</g>
+	<g id="lives">
+		<g id="lives-badge">
+			<g>
+				<polyline fill="none" stroke="#F9F9F9" stroke-miterlimit="10" points="390,215.5 300.375,215.5 300.67,215.5 251.314,171.453 
+									"/>
+				<ellipse fill="#EFE80F" cx="220.275" cy="110.745" rx="93.008" ry="91.344"/>
+			</g>
+			<g id="lives-details_1_">
+				<rect x="166" y="89" fill="#EFE80F" width="109" height="76"/>
+				<text id="lives-details" transform="matrix(1 0 0 1 146.8041 109.023)"><tspan x="0" y="0" fill="#FAFBFC" font-family="'Roboto-Bold'" font-size="20.7054">EXETER DEVON</tspan><tspan x="-3.21" y="24.847" fill="#3A3A3A" font-family="'Roboto-Bold'" font-size="20.7054">LIVES:</tspan><tspan x="58.148" y="24.847" fill="#FAFBFC" font-family="'Roboto-Bold'" font-size="20.7054"> BRIXTON</tspan><tspan x="32.281" y="49.693" fill="#FAFBFC" font-family="'Roboto-Bold'" font-size="20.7054">LONDON</tspan></text>
+			</g>
+			<g id="lives-title_1_">
+				<rect x="176" y="49" fill="#EFE80F" width="75" height="29"/>
+				
+					<text id="lives-title" transform="matrix(1 0 0 1 183.7465 72.0493)" fill="#3A3A3A" font-family="'Roboto-Bold'" font-size="23.6633">LIVES: </text>
+			</g>
 		</g>
-		<g id="education-title_1_">
-			<rect x="606" y="127" fill="#EFE80F" width="138" height="38"/>
+	</g>
+	<g id="experience">
+		<g id="experience-badge">
 			
-				<text id="education-title" transform="matrix(1 0 0 1 607.748 155.6109)" fill="#3A3A3A" font-family="'Roboto-Bold'" font-size="23.6633">EDUCATION:</text>
+				<ellipse transform="matrix(0.9856 0.1692 -0.1692 0.9856 90.863 -116.8454)" fill="#EFE80F" cx="731.034" cy="474.725" rx="116.266" ry="114.185"/>
+			<g>
+				<polyline fill="none" stroke="#F9F9F9" stroke-width="1.9044" stroke-miterlimit="10" points="497.575,525.215 564.242,478.084 
+					564.023,478.239 623.581,485.105 				"/>
+			</g>
+			<g id="experience-title_1_">
+				<rect x="663" y="396" fill="#EFE80F" width="130" height="28"/>
+				
+					<text id="experience-title" transform="matrix(1.1333 0 0 1 662.6826 417.2891)" fill="#3A3A3A" font-family="'Roboto-Bold'" font-size="18.5645">EXPERIENCE: </text>
+			</g>
+			<g id="experience-details_1_">
+				<rect x="634" y="437" fill="#EFE80F" width="191" height="92"/>
+				<text id="experience-details" transform="matrix(1 0 0 1 643.5253 461.4502)"><tspan x="0" y="0" fill="#F7F8F9" font-family="'Roboto-Bold'" font-size="20.7054">CO-PRODUCTION, </tspan><tspan x="37.802" y="24.847" fill="#F7F8F9" font-family="'Roboto-Bold'" font-size="20.7054">TRAINING,</tspan><tspan x="-19.558" y="49.693" fill="#F7F8F9" font-family="'Roboto-Bold'" font-size="20.7054">GROUP FACILITATION.</tspan></text>
+			</g>
+		</g>
+	</g>
+	<g id="training">
+		<g id="training-badge">
+			<g>
+				<polyline fill="none" stroke="#F9F9F9" stroke-miterlimit="10" points="343,526.5 249.576,526.5 249.883,526.5 198.79,480.753 
+									"/>
+				<ellipse fill="#EFE80F" cx="140.223" cy="379.119" rx="121.41" ry="119.237"/>
+			</g>
+			<g id="training-title_1_">
+				<rect x="78" y="300" fill="#EFE80F" width="127" height="28"/>
+				
+					<text id="training-title" transform="matrix(1.145 0 0 1 81.662 321.3667)" fill="#3A3A3A" font-family="'Roboto-Bold'" font-size="22.1844">TRAINING: </text>
+			</g>
+			<g id="training-details_1_">
+				<rect x="40" y="360" fill="#EFE80F" width="199" height="64"/>
+				<text id="training-details" transform="matrix(1 0 0 1 82.9838 366.5493)"><tspan x="0" y="0" fill="#F9F9F9" font-family="'Roboto-Bold'" font-size="20.7054">FRONT-END</tspan><tspan x="-45.242" y="24.847" fill="#F9F9F9" font-family="'Roboto-Bold'" font-size="20.7054">WEB DEVELOPMENT, </tspan><tspan x="-44.064" y="49.693" fill="#F9F9F9" font-family="'Roboto-Bold'" font-size="20.7054">GENERAL ASSEMBLY</tspan></text>
+			</g>
 		</g>
 	</g>
 </g>
