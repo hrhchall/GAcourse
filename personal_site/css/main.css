@@ -303,150 +303,118 @@ h2 {
 
 
 
-
-#education{ 
-    transform-origin: 311px 489px;
-}
-
 #lives {
-  -webkit-transform-origin: 517px 484px;
-  -moz-transform-origin: 517px 484px;
-  -ms-transform-origin: 517px 484px;
-  -o-transform-origin: 517px 484px;
-  transform-origin: 517px 484px; }
+  -webkit-transform-origin: 206px 159px;
+  -moz-transform-origin: 206px 159px;
+  -ms-transform-origin: 206px 159px;
+  -o-transform-origin:206px 159px;
+  transform-origin: 206px 159px; }
 
 #lives-badge {
-  -webkit-transform-origin: 445px 488px;
-  -moz-transform-origin: 445px 488px;
-  -ms-transform-origin: 445px 488px;
-  -o-transform-origin: 445px 488px;
-  transform-origin: 445px 488px; }
+  -webkit-transform-origin: 206px 159px;
+  -moz-transform-origin: 206px 159px;
+  -ms-transform-origin: 206px 159px;
+  -o-transform-origin: 206px 159px;
+  transform-origin: 206px 159px; }
 
 #lives-title {
-  -webkit-transform-origin: 310px 396px;
-  -moz-transform-origin: 310px 396px;
-  -ms-transform-origin: 310px 396px;
-  -o-transform-origin: 310px 396px;
-  transform-origin: 310px 396px; }
+  -webkit-transform-origin: 206px 159px;
+  -moz-transform-origin: 206px 159px;
+  -ms-transform-origin: 206px 159px;
+  -o-transform-origin: 206px 159px;
+  transform-origin: 206px 159px; }
 
 #lives-details {
-  -webkit-transform-origin: 311px 489px;
-  -moz-transform-origin: 311px 489px;
-  -ms-transform-origin: 311px 489px;
-  -o-transform-origin: 311px 489px;
-  transform-origin: 311px 489px; }
+  -webkit-transform-origin: 206px 159px;;
+  -moz-transform-origin: 206px 159px;;
+  -ms-transform-origin: 206px 159px;;
+  -o-transform-origin: 206px 159px;;
+  transform-origin: 206px 159px; }
 
 #training {
-  -webkit-transform-origin: 514px 603px;
-  -moz-transform-origin: 514px 603px;
-  -ms-transform-origin: 514px 603px;
-  -o-transform-origin: 514px 603px;
-  transform-origin: 514px 603px; }
+  -webkit-transform-origin: 191px 204px;
+  -moz-transform-origin: 191px 204px;
+  -ms-transform-origin: 191px 204px;
+  -o-transform-origin: 191px 204px;
+  transform-origin: 191px 204px; }
 
 #training-badge {
-  -webkit-transform-origin: 580px 606px;
-  -moz-transform-origin: 580px 606px;
-  -ms-transform-origin: 580px 606px;
-  -o-transform-origin: 580px 606px;
-  transform-origin: 580px 606px; }
+  -webkit-transform-origin: 191px 204px;
+  -moz-transform-origin: 191px 204px;
+  -ms-transform-origin: 191px 204px;
+  -o-transform-origin: 191px 204px;
+  transform-origin: 191px 204px; }
 
 #training-title {
-  -webkit-transform-origin: 712px 513px;
-  -moz-transform-origin: 712px 513px;
-  -ms-transform-origin: 712px 513px;
-  -o-transform-origin: 712px 513px;
-  transform-origin: 712px 513px; }
+  -webkit-transform-origin: 191px 204px;
+  -moz-transform-origin: 191px 204px;
+  -ms-transform-origin: 191px 204px;
+  -o-transform-origin: 191px 204px;
+  transform-origin: 191px 204px; }
 
 #training-details {
-  -webkit-transform-origin: 710px 620px;
-  -moz-transform-origin: 710px 620px;
-  -ms-transform-origin: 710px 620px;
-  -o-transform-origin: 710px 620px;
-  transform-origin: 710px 620px; }
+  -webkit-transform-origin: 191px 204px;
+  -moz-transform-origin: 191px 204px;
+  -ms-transform-origin: 191px 204px;
+  -o-transform-origin: 191px 204px;
+  transform-origin: 191px 204px; }
 
 #experience {
-  -webkit-transform-origin: 511px 769px;
-  -moz-transform-origin: 511px 769px;
-  -ms-transform-origin: 511px 769px;
-  -o-transform-origin: 511px 769px;
-  transform-origin: 511px 769px; }
+  -webkit-transform-origin: 372px 319px;
+  -moz-transform-origin: 372px 319px;
+  -ms-transform-origin: 372px 319px;
+  -o-transform-origin: 372px 319px;
+  transform-origin: 372px 319px; }
 
 #experience-badge {
-  -webkit-transform-origin: 445px 775px;
-  -moz-transform-origin: 445px 775px;
-  -ms-transform-origin: 445px 775px;
-  -o-transform-origin: 445px 775px;
-  transform-origin: 445px 775px; }
+  -webkit-transform-origin: 372px 319px;
+  -moz-transform-origin: 372px 319px;
+  -ms-transform-origin: 372px 319px;
+  -o-transform-origin: 372px 319px;
+  transform-origin: 372px 319px;}
 
 #experience-title {
-  -webkit-transform-origin: 312px 680px;
-  -moz-transform-origin: 312px 680px;
-  -ms-transform-origin: 312px 680px;
-  -o-transform-origin: 312px 680px;
-  transform-origin: 312px 680px; }
+  -webkit-transform-origin: 372px 319px;
+  -moz-transform-origin: 372px 319px;
+  -ms-transform-origin: 372px 319px;
+  -o-transform-origin: 372px 319px;
+  transform-origin: 372px 319px; }
 
 #experience-details {
-  -webkit-transform-origin: 310px 790px;
-  -moz-transform-origin: 310px 790px;
-  -ms-transform-origin: 310px 790px;
-  -o-transform-origin: 310px 790px;
-  transform-origin: 310px 790px; }
+  -webkit-transform-origin: 372px 319px;
+  -moz-transform-origin: 372px 319px;
+  -ms-transform-origin: 372px 319px;
+  -o-transform-origin: 372px 319px;
+  transform-origin: 372px 319px;}
 
-#complain {
-  -webkit-transform-origin: 512px 1002px;
-  -moz-transform-origin: 512px 1002px;
-  -ms-transform-origin: 512px 1002px;
-  -o-transform-origin: 512px 1002px;
-  transform-origin: 512px 1002px; }
-
-#complain-badge {
-  -webkit-transform-origin: 586px 1000px;
-  -moz-transform-origin: 586px 1000px;
-  -ms-transform-origin: 586px 1000px;
-  -o-transform-origin: 586px 1000px;
-  transform-origin: 586px 1000px; }
-
-#complain-title {
-  -webkit-transform-origin: 718px 921px;
-  -moz-transform-origin: 718px 921px;
-  -ms-transform-origin: 718px 921px;
-  -o-transform-origin: 718px 921px;
-  transform-origin: 718px 921px; }
-
-#complain-details {
-  -webkit-transform-origin: 717px 1021px;
-  -moz-transform-origin: 717px 1021px;
-  -ms-transform-origin: 717px 1021px;
-  -o-transform-origin: 717px 1021px;
-  transform-origin: 717px 1021px; }
 
 #education {
-  -webkit-transform-origin: 513px 1199px;
-  -moz-transform-origin: 513px 1199px;
-  -ms-transform-origin: 513px 1199px;
-  -o-transform-origin: 513px 1199px;
-  transform-origin: 513px 1199px; }
+  -webkit-transform-origin: 342px 161px;
+  -moz-transform-origin: 342px 161px;
+  -ms-transform-origin: 342px 161px;
+  -o-transform-origin: 342px 161px;
+  transform-origin: 342px 161px; }
 
 #education-badge {
-  -webkit-transform-origin: 444px 1193px;
-  -moz-transform-origin: 444px 1193px;
-  -ms-transform-origin: 444px 1193px;
-  -o-transform-origin: 444px 1193px;
-  transform-origin: 444px 1193px; }
+  -webkit-transform-origin: 342px 161px;
+  -moz-transform-origin: 342px 161px;
+  -ms-transform-origin: 342px 161px;
+  -o-transform-origin: 342px 161px;
+  transform-origin: 342px 161px; }
 
 #education-title {
-  -webkit-transform-origin: 313px 1097px;
-  -moz-transform-origin: 313px 1097px;
-  -ms-transform-origin: 313px 1097px;
-  -o-transform-origin: 313px 1097px;
-  transform-origin: 313px 1097px; }
+  -webkit-transform-origin: 342px 161px;
+  -moz-transform-origin: 342px 161px;
+  -ms-transform-origin: 342px 161px;
+  -o-transform-origin: 342px 161px;
+  transform-origin: 342px 161px; }
 
 #education-details {
-  -webkit-transform-origin: 316px 1202px;
-  -moz-transform-origin: 316px 1202px;
-  -ms-transform-origin: 316px 1202px;
-  -o-transform-origin: 316px 1202px;
-  transform-origin: 316px 1202px; }
+  -webkit-transform-origin: 342px 161px;
+  -moz-transform-origin: 342px 161px;
+  -ms-transform-origin: 342px 161px;
+  -o-transform-origin: 342px 161px;
+  transform-origin: 342px 161px;}
 
 
 [id$=badge] { /* Any element with an id that ends in "badge" */
