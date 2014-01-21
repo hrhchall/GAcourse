@@ -466,6 +466,7 @@ h2 {
 #stage {
   width:960px;
   height:700px;
+  margin:0 auto;
 }
 
 
@@ -478,25 +479,25 @@ h2 {
   transform-origin: 206px 159px; }
 
 #lives-badge {
-  -webkit-transform-origin: 206px 159px;
-  -moz-transform-origin: 206px 159px;
-  -ms-transform-origin: 206px 159px;
-  -o-transform-origin: 206px 159px;
-  transform-origin: 206px 159px; }
+  -webkit-transform-origin: 326px 204px;
+  -moz-transform-origin: 326px 204px;
+  -ms-transform-origin: 326px 204px;
+  -o-transform-origin: 326px 204px;
+  transform-origin: 326px 204px; }
 
 #lives-title_1_ {
-  -webkit-transform-origin: 206px 159px;
-  -moz-transform-origin: 206px 159px;
-  -ms-transform-origin: 206px 159px;
-  -o-transform-origin: 206px 159px;
-  transform-origin: 206px 159px; }
+  -webkit-transform-origin: 208px 125px;
+  -moz-transform-origin: 208px 125px;
+  -ms-transform-origin: 208px 125px;
+  -o-transform-origin: 208px 125px;
+  transform-origin: 208px 125px; }
 
 #lives-details_1_ {
-  -webkit-transform-origin: 206px 159px;;
-  -moz-transform-origin: 206px 159px;;
-  -ms-transform-origin: 206px 159px;;
-  -o-transform-origin: 206px 159px;;
-  transform-origin: 206px 159px; }
+  -webkit-transform-origin: 188px 159px;;
+  -moz-transform-origin: 188px 159px;;
+  -ms-transform-origin: 188px 159px;;
+  -o-transform-origin: 188px 159px;;
+  transform-origin: 188px 159px; }
 
 #training {
   -webkit-transform-origin: 191px 204px;
@@ -506,25 +507,25 @@ h2 {
   transform-origin: 191px 204px; }
 
 #training-badge {
-  -webkit-transform-origin: 191px 204px;
-  -moz-transform-origin: 191px 204px;
-  -ms-transform-origin: 191px 204px;
-  -o-transform-origin: 191px 204px;
-  transform-origin: 191px 204px; }
+  -webkit-transform-origin: 258px 364px;
+  -moz-transform-origin: 258px 364px;
+  -ms-transform-origin: 258px 364px;
+  -o-transform-origin: 258px 364px;
+  transform-origin: 258px 364px; }
 
 #training-title_1_ {
-  -webkit-transform-origin: 191px 204px;
-  -moz-transform-origin: 191px 204px;
-  -ms-transform-origin: 191px 204px;
-  -o-transform-origin: 191px 204px;
-  transform-origin: 191px 204px; }
+  -webkit-transform-origin: 147px 347px;
+  -moz-transform-origin: 147px 347px;
+  -ms-transform-origin: 147px 347px;
+  -o-transform-origin: 147px 347px;
+  transform-origin: 147px 347px; }
 
 #training-details_1_ {
-  -webkit-transform-origin: 191px 204px;
-  -moz-transform-origin: 191px 204px;
-  -ms-transform-origin: 191px 204px;
-  -o-transform-origin: 191px 204px;
-  transform-origin: 191px 204px; }
+  -webkit-transform-origin: 95px 381px;
+  -moz-transform-origin: 95px 381px;
+  -ms-transform-origin: 95px 381px;
+  -o-transform-origin: 95px 381px;
+  transform-origin: 95px 381px; }
 
 #experience {
   -webkit-transform-origin: 372px 319px;
@@ -534,25 +535,25 @@ h2 {
   transform-origin: 372px 319px; }
 
 #experience-badge {
-  -webkit-transform-origin: 372px 319px;
-  -moz-transform-origin: 372px 319px;
-  -ms-transform-origin: 372px 319px;
-  -o-transform-origin: 372px 319px;
-  transform-origin: 372px 319px;}
+  -webkit-transform-origin: 583px 319px;
+  -moz-transform-origin: 583px 319px;
+  -ms-transform-origin: 583px 319px;
+  -o-transform-origin: 583px 319px;
+  transform-origin: 583px 319px;}
 
 #experience-title_1_ {
-  -webkit-transform-origin: 372px 319px;
-  -moz-transform-origin: 372px 319px;
-  -ms-transform-origin: 372px 319px;
-  -o-transform-origin: 372px 319px;
-  transform-origin: 372px 319px; }
+  -webkit-transform-origin: 725px 435px;
+  -moz-transform-origin: 725px 435px;
+  -ms-transform-origin: 725px 435px;
+  -o-transform-origin: 725px 435px;
+  transform-origin: 725px 435px; }
 
 #experience-details_1_ {
-  -webkit-transform-origin: 372px 319px;
-  -moz-transform-origin: 372px 319px;
-  -ms-transform-origin: 372px 319px;
-  -o-transform-origin: 372px 319px;
-  transform-origin: 372px 319px;}
+  -webkit-transform-origin: 693px 490px;
+  -moz-transform-origin: 693px 490px;
+  -ms-transform-origin: 693px 490px;
+  -o-transform-origin: 693px 490px;
+  transform-origin: 693px 490px;}
 
 
 #education {
@@ -563,25 +564,25 @@ h2 {
   transform-origin: 342px 161px; }
 
 #education-badge {
-  -webkit-transform-origin: 342px 161px;
-  -moz-transform-origin: 342px 161px;
-  -ms-transform-origin: 342px 161px;
-  -o-transform-origin: 342px 161px;
-  transform-origin: 342px 161px; }
+  -webkit-transform-origin: 503px 236px;
+  -moz-transform-origin: 503px 236px;
+  -ms-transform-origin: 503px 236px;
+  -o-transform-origin:503px 236px;
+  transform-origin: 503px 236px; }
 
 #education-title_1_ {
-  -webkit-transform-origin: 342px 161px;
-  -moz-transform-origin: 342px 161px;
-  -ms-transform-origin: 342px 161px;
-  -o-transform-origin: 342px 161px;
-  transform-origin: 342px 161px; }
+  -webkit-transform-origin: 679px 192px;
+  -moz-transform-origin: 679px 192px;
+  -ms-transform-origin: 679px 192px;
+  -o-transform-origin: 679px 192px;
+  transform-origin: 679px 192px; }
 
 #education-details_1_ {
-  -webkit-transform-origin: 342px 161px;
-  -moz-transform-origin: 342px 161px;
-  -ms-transform-origin: 342px 161px;
-  -o-transform-origin: 342px 161px;
-  transform-origin: 342px 161px;}
+  -webkit-transform-origin: 592px 198px;
+  -moz-transform-origin: 592px 198px;
+  -ms-transform-origin: 592px 198px;
+  -o-transform-origin: 592px 198px;
+  transform-origin: 592px 198px;}
 
 
 [id$=badge] { /* Any element with an id that ends in "badge" */
@@ -630,7 +631,7 @@ h2 {
   transition: transform 0.25s ease-in-out;
 }
 
-#timeline > g:hover [id$=title_1_] {
+#badges > g:hover [id$=title_1_] {
   -webkit-transform: scale(1) translate(0px, 0px);
   -moz-transform: scale(1) translate(0px, 0px);
   -ms-transform: scale(1) translate(0px, 0px);
