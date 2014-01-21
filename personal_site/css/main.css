@@ -484,7 +484,7 @@ h2 {
   -o-transform-origin: 206px 159px;
   transform-origin: 206px 159px; }
 
-#lives-title {
+#lives-title_1_ {
   -webkit-transform-origin: 206px 159px;
   -moz-transform-origin: 206px 159px;
   -ms-transform-origin: 206px 159px;
@@ -512,7 +512,7 @@ h2 {
   -o-transform-origin: 191px 204px;
   transform-origin: 191px 204px; }
 
-#training-title {
+#training-title_1_ {
   -webkit-transform-origin: 191px 204px;
   -moz-transform-origin: 191px 204px;
   -ms-transform-origin: 191px 204px;
@@ -540,7 +540,7 @@ h2 {
   -o-transform-origin: 372px 319px;
   transform-origin: 372px 319px;}
 
-#experience-title {
+#experience-title_1_ {
   -webkit-transform-origin: 372px 319px;
   -moz-transform-origin: 372px 319px;
   -ms-transform-origin: 372px 319px;
@@ -569,7 +569,7 @@ h2 {
   -o-transform-origin: 342px 161px;
   transform-origin: 342px 161px; }
 
-#education-title {
+#education-title_1_ {
   -webkit-transform-origin: 342px 161px;
   -moz-transform-origin: 342px 161px;
   -ms-transform-origin: 342px 161px;
@@ -591,7 +591,7 @@ h2 {
   -o-transform: scale(0.5, 0.5);
   transform: scale(0.5, 0.5); 
 }
-[id$=title] { 
+[id$=title_1_] { 
     -webkit-transform: scale(1.8) translate(0px, 48px);
   -moz-transform: scale(1.8) translate(0px, 48px);
   -ms-transform: scale(1.8) translate(0px, 48px);
@@ -615,7 +615,7 @@ h2 {
   transform: scale(1, 1);
 }
 
-#badges > g:hover [id$=title] {
+#badges > g:hover [id$=title_1_] {
     -webkit-transform: scale(1) translate(0px, 0px);
   -moz-transform: scale(1) translate(0px, 0px);
   -ms-transform: scale(1) translate(0px, 0px);
@@ -623,14 +623,14 @@ h2 {
   transform: scale(1) translate(0px, 0px);
 }
 
-[id$=badge], [id$=title], [id$=details] {
+[id$=badge], [id$=title_1_], [id$=details] {
     -webkit-transition: -webkit-transform 0.25s ease-in-out;
   -moz-transition: -moz-transform 0.25s ease-in-out;
   -o-transition: -o-transform 0.25s ease-in-out;
   transition: transform 0.25s ease-in-out;
 }
 
-#timeline > g:hover [id$=title] {
+#timeline > g:hover [id$=title_1_] {
   -webkit-transform: scale(1) translate(0px, 0px);
   -moz-transform: scale(1) translate(0px, 0px);
   -ms-transform: scale(1) translate(0px, 0px);
@@ -646,7 +646,7 @@ h2 {
   transform: scale(1) translate(0px, 0px);
 }*/
 
-#education-badge:hover #education-title {
+#education-badge:hover #education-title_1_ {
    -webkit-transform: scale(1) translate(0px, 0px);
   -moz-transform: scale(1) translate(0px, 0px);
   -ms-transform: scale(1) translate(0px, 0px);
