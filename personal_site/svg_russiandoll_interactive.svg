@@ -1,93 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="584px"
-	 height="429px" viewBox="0 0 584 429" enable-background="new 0 0 584 429" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="740px"
+	 height="511px" viewBox="0 0 740 511" enable-background="new 0 0 740 511" xml:space="preserve">
 <g id="background">
-	<rect fill="#3A3A3A" width="584" height="429"/>
 </g>
 <g id="badges">
 	<g id="training-badge">
 		<g>
-			<polyline fill="none" stroke="#F9F9F9" stroke-miterlimit="10" points="233,354.5 169.844,354.5 170.051,354.5 135.498,323.568 
+			<polyline fill="none" stroke="#F9F9F9" stroke-miterlimit="10" points="298,439.5 217.699,439.5 217.963,439.5 173.82,400.072 
 							"/>
-			<ellipse fill="#EFE80F" cx="95.904" cy="254.625" rx="82.091" ry="80.622"/>
+			<ellipse fill="#EFE80F" cx="123.451" cy="312.428" rx="104.638" ry="102.766"/>
 		</g>
 		<g id="training-title_1_">
-			<rect x="54" y="201" fill="#EFE80F" width="86" height="19"/>
+			<rect x="70" y="244" fill="#EFE80F" width="109" height="24"/>
 			
-				<text id="training-title" transform="matrix(1.145 0 0 1 56.3086 215.5762)" fill="#3A3A3A" font-family="'Roboto-Bold'" font-size="15">TRAINING: </text>
+				<text id="training-title" transform="matrix(1.145 0 0 1 72.98 262.6538)" fill="#3A3A3A" font-family="'Roboto-Bold'" font-size="19.1199">TRAINING: </text>
 		</g>
-		<g id="experience-details_2_">
-			<rect x="28" y="242" fill="#EFE80F" width="135" height="43"/>
-			<text id="training-details" transform="matrix(1 0 0 1 57.203 246.1265)"><tspan x="0" y="0" fill="#F9F9F9" font-family="'Roboto-Bold'" font-size="14">FRONT-END</tspan><tspan x="-30.591" y="16.8" fill="#F9F9F9" font-family="'Roboto-Bold'" font-size="14">WEB DEVELOPMENT, </tspan><tspan x="-29.794" y="33.6" fill="#F9F9F9" font-family="'Roboto-Bold'" font-size="14">GENERAL ASSEMBLY</tspan></text>
+		<g id="training-details_1_">
+			<rect x="37" y="296" fill="#EFE80F" width="172" height="55"/>
+			<text id="training-details" transform="matrix(1 0 0 1 74.1191 301.5952)"><tspan x="0" y="0" fill="#F9F9F9" font-family="'Roboto-Bold'" font-size="17.8452">FRONT-END</tspan><tspan x="-38.993" y="21.414" fill="#F9F9F9" font-family="'Roboto-Bold'" font-size="17.8452">WEB DEVELOPMENT, </tspan><tspan x="-37.978" y="42.829" fill="#F9F9F9" font-family="'Roboto-Bold'" font-size="17.8452">GENERAL ASSEMBLY</tspan></text>
 		</g>
 	</g>
 	<g id="experience-badge">
 		<g>
-			<polyline fill="none" stroke="#F9F9F9" stroke-width="1.2877" stroke-miterlimit="10" points="337.529,353.409 382.606,321.541 
-				382.458,321.645 422.728,326.288 			"/>
+			<polyline fill="none" stroke="#F9F9F9" stroke-width="1.6413" stroke-miterlimit="10" points="431.44,438.343 488.898,397.723 
+				488.709,397.856 540.04,403.774 			"/>
 		</g>
 		
-			<ellipse transform="matrix(0.9856 0.1692 -0.1692 0.9856 61.1625 -79.2149)" fill="#EFE80F" cx="495.382" cy="319.27" rx="78.614" ry="77.207"/>
+			<ellipse transform="matrix(0.9856 0.1692 -0.1692 0.9856 75.926 -101.3508)" fill="#EFE80F" cx="632.649" cy="394.828" rx="100.206" ry="98.412"/>
 		<g id="experience-title_1_">
-			<rect x="439" y="266" fill="#EFE80F" width="112" height="19"/>
+			<rect x="561" y="327" fill="#EFE80F" width="143" height="24"/>
 			
-				<text id="experience-title" transform="matrix(1.1333 0 0 1 436.625 285.1416)" fill="#3A3A3A" font-family="'Roboto-Bold'" font-size="16">EXPERIENCE: </text>
+				<text id="experience-title" transform="matrix(1.1333 0 0 1 557.7539 351.3257)" fill="#3A3A3A" font-family="'Roboto-Bold'" font-size="20.3945">EXPERIENCE: </text>
 		</g>
 		<g id="experience-details_1_">
-			<rect x="430" y="293" fill="#EFE80F" width="129" height="64"/>
-			<text id="experience-details" transform="matrix(1 0 0 1 436.2136 310.2938)"><tspan x="0" y="0" fill="#F7F8F9" font-family="'Roboto-Bold'" font-size="14">CO-PRODUCTION, </tspan><tspan x="25.56" y="16.8" fill="#F7F8F9" font-family="'Roboto-Bold'" font-size="14">TRAINING,</tspan><tspan x="-13.224" y="33.6" fill="#F7F8F9" font-family="'Roboto-Bold'" font-size="14">GROUP FACILITATION.</tspan></text>
+			<rect x="549" y="362" fill="#EFE80F" width="165" height="80"/>
+			<text id="experience-details" transform="matrix(1 0 0 1 557.2295 383.3867)"><tspan x="0" y="0" fill="#F7F8F9" font-family="'Roboto-Bold'" font-size="17.8452">CO-PRODUCTION, </tspan><tspan x="32.579" y="21.414" fill="#F7F8F9" font-family="'Roboto-Bold'" font-size="17.8452">TRAINING,</tspan><tspan x="-16.856" y="42.828" fill="#F7F8F9" font-family="'Roboto-Bold'" font-size="17.8452">GROUP FACILITATION.</tspan></text>
 		</g>
 	</g>
 	<g id="lives-badge">
 		<g>
-			<polyline fill="none" stroke="#F9F9F9" stroke-miterlimit="10" points="265,144.5 204.192,144.5 204.391,144.5 171.123,114.718 
+			<polyline fill="none" stroke="#F9F9F9" stroke-miterlimit="10" points="339,171.5 261.481,171.5 261.735,171.5 219.334,133.538 
 							"/>
-			<ellipse fill="#EFE80F" cx="150.032" cy="73.164" rx="62.888" ry="61.762"/>
+			<ellipse fill="#EFE80F" cx="192.445" cy="81.127" rx="80.16" ry="78.726"/>
 		</g>
 		<g id="lives-details_1_">
-			<rect x="114" y="58" fill="#EFE80F" width="73" height="52"/>
-			<text id="lives-details" transform="matrix(1 0 0 1 100.3551 72)"><tspan x="0" y="0" fill="#FAFBFC" font-family="'Roboto-Bold'" font-size="14">EXETER DEVON</tspan><tspan x="-2.17" y="16.8" fill="#3A3A3A" font-family="'Roboto-Bold'" font-size="14">LIVES:</tspan><tspan x="39.317" y="16.8" fill="#FAFBFC" font-family="'Roboto-Bold'" font-size="14"> BRIXTON</tspan><tspan x="21.827" y="33.6" fill="#FAFBFC" font-family="'Roboto-Bold'" font-size="14">LONDON</tspan></text>
+			<rect x="146" y="62" fill="#EFE80F" width="94" height="66"/>
+			<text id="lives-details" transform="matrix(1 0 0 1 129.1236 79.6431)"><tspan x="0" y="0" fill="#FAFBFC" font-family="'Roboto-Bold'" font-size="17.8452">EXETER DEVON</tspan><tspan x="-2.767" y="21.414" fill="#3A3A3A" font-family="'Roboto-Bold'" font-size="17.8452">LIVES:</tspan><tspan x="50.115" y="21.414" fill="#FAFBFC" font-family="'Roboto-Bold'" font-size="17.8452"> BRIXTON</tspan><tspan x="27.822" y="42.829" fill="#FAFBFC" font-family="'Roboto-Bold'" font-size="17.8452">LONDON</tspan></text>
 		</g>
 		<g id="lives-title_1_">
-			<rect x="120" y="31" fill="#EFE80F" width="51" height="20"/>
-			<text id="lives-title" transform="matrix(1 0 0 1 125.3327 47)" fill="#3A3A3A" font-family="'Roboto-Bold'" font-size="16">LIVES: </text>
+			<rect x="154" y="28" fill="#EFE80F" width="65" height="25"/>
+			
+				<text id="lives-title" transform="matrix(1 0 0 1 160.9624 47.7768)" fill="#3A3A3A" font-family="'Roboto-Bold'" font-size="20.3945">LIVES: </text>
 		</g>
 	</g>
 	<g id="education-badge">
 		<g>
 			<g>
-				<polyline fill="none" stroke="#F9F9F9" stroke-miterlimit="10" points="337.729,191.051 368.044,160.736 367.944,160.835 
-					399.377,159.097 				"/>
+				<polyline fill="none" stroke="#F9F9F9" stroke-width="1.2747" stroke-miterlimit="10" points="431.695,231.393 470.336,192.752 
+					470.209,192.878 510.275,190.663 				"/>
 			</g>
-			<ellipse fill="#EFE80F" cx="457.905" cy="130.664" rx="66.451" ry="65.262"/>
+			<ellipse fill="#EFE80F" cx="584.879" cy="154.42" rx="84.703" ry="83.187"/>
 		</g>
 		<g id="education-details_1_">
-			<rect x="418" y="121" fill="#EFE80F" width="80" height="38"/>
-			<text id="education-details" transform="matrix(1 0 0 1 416.6406 135.4207)"><tspan x="0" y="0" fill="#F7F8F9" font-family="'Roboto-Bold'" font-size="14">CAMBRIDGE </tspan><tspan x="1.439" y="16.8" fill="#F7F8F9" font-family="'Roboto-Bold'" font-size="14">UNIVERSITY</tspan></text>
+			<rect x="534" y="142" fill="#EFE80F" width="102" height="48"/>
+			<text id="education-details" transform="matrix(1 0 0 1 532.2803 160.4829)"><tspan x="0" y="0" fill="#F7F8F9" font-family="'Roboto-Bold'" font-size="17.8452">CAMBRIDGE </tspan><tspan x="1.834" y="21.415" fill="#F7F8F9" font-family="'Roboto-Bold'" font-size="17.8452">UNIVERSITY</tspan></text>
 		</g>
 		<g id="education-title_1_">
-			<rect x="411" y="84" fill="#EFE80F" width="93" height="26"/>
+			<rect x="525" y="95" fill="#EFE80F" width="119" height="33"/>
 			
-				<text id="education-title" transform="matrix(1 0 0 1 412.0226 103.5002)" fill="#3A3A3A" font-family="'Roboto-Bold'" font-size="16">EDUCATION:</text>
+				<text id="education-title" transform="matrix(1 0 0 1 526.3936 119.7954)" fill="#3A3A3A" font-family="'Roboto-Bold'" font-size="20.3945">EDUCATION:</text>
 		</g>
 	</g>
 </g>
 <g id="doll">
 	<g>
-		<path fill="#3A3A3A" stroke="#F7F8F9" stroke-miterlimit="10" d="M366.804,284.15c0.283,2.762,0.432,5.561,0.432,8.395
-			c0,44.782-36.302,81.088-81.088,81.088s-81.088-36.302-81.088-81.087c0-2.58,0.125-5.129,0.36-7.65
-			c1.201-17.616,5.086-35.246,13.731-52.859c9.902-20.17,13.576-40.353,14.11-60.531v-0.003c0-29.205,23.679-52.881,52.883-52.881
-			c29.207,0,52.883,23.676,52.883,52.881c0,0.125-0.003,0.251-0.003,0.376c0.582,20.055,4.264,40.118,14.094,60.157
-			C361.641,249.406,365.545,266.779,366.804,284.15z"/>
-		<path fill="#FCFCFC" stroke="#F7F8F9" stroke-miterlimit="10" d="M324.622,169.825c0.849,3.237,1.302,6.631,1.302,10.134
-			c0,21.968-17.808,39.777-39.774,39.777c-21.968,0-39.777-17.808-39.777-39.777c0-3.504,0.454-6.898,1.305-10.134
-			c1.118,0.08,2.244,0.123,3.383,0.123c15.378,0,28.682-7.533,35.088-18.494c6.404,10.959,19.711,18.494,35.086,18.494
-			C322.378,169.948,323.504,169.905,324.622,169.825z"/>
-		<path fill="#FCFCFC" stroke="#F7F8F9" stroke-miterlimit="10" d="M341.635,262.807c4.622,8.739,7.244,18.71,7.244,29.285
-			c0,34.64-28.084,62.732-62.73,62.732s-62.732-28.089-62.732-62.732c0-10.575,2.623-20.543,7.247-29.285
-			c24.367-1.476,45.135-13.56,55.485-30.643C296.495,249.246,317.268,261.331,341.635,262.807"/>
+		<path fill="#3A3A3A" stroke="#F7F8F9" stroke-width="1.2747" stroke-miterlimit="10" d="M468.756,350.062
+			c0.361,3.52,0.551,7.088,0.551,10.7c0,57.082-46.273,103.359-103.359,103.359s-103.359-46.273-103.359-103.359
+			c0-3.289,0.16-6.537,0.459-9.751c1.531-22.455,6.483-44.926,17.503-67.378c12.622-25.71,17.305-51.436,17.986-77.156v-0.003
+			c0-37.226,30.182-67.405,67.408-67.405c37.229,0,67.408,30.179,67.408,67.405c0,0.16-0.003,0.32-0.003,0.48
+			c0.741,25.563,5.435,51.137,17.965,76.68C462.175,305.775,467.151,327.921,468.756,350.062z"/>
+		<path fill="#FCFCFC" stroke="#F7F8F9" stroke-width="1.2747" stroke-miterlimit="10" d="M414.988,204.338
+			c1.082,4.126,1.66,8.452,1.66,12.918c0,28.002-22.7,50.702-50.698,50.702c-28.002,0-50.702-22.7-50.702-50.702
+			c0-4.466,0.578-8.792,1.663-12.918c1.425,0.102,2.86,0.156,4.313,0.156c19.601,0,36.559-9.602,44.726-23.574
+			c8.163,13.969,25.125,23.574,44.722,23.574C412.128,204.494,413.563,204.44,414.988,204.338z"/>
+		<path fill="#FCFCFC" stroke="#F7F8F9" stroke-width="1.2747" stroke-miterlimit="10" d="M436.674,322.857
+			c5.891,11.139,9.234,23.849,9.234,37.328c0,44.154-35.798,79.962-79.959,79.962s-79.962-35.804-79.962-79.962
+			c0-13.479,3.343-26.186,9.238-37.328c31.06-1.881,57.531-17.285,70.724-39.059C379.136,305.572,405.615,320.976,436.674,322.857"
+			/>
 	</g>
 </g>
 </svg>
