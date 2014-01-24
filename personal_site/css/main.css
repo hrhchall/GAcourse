@@ -303,6 +303,12 @@ h2 {
   text-transform: uppercase;
 }
 
+.footertext {
+  color:white;
+  text-transform;
+  letter-spacing:.3em;
+}
+
 /* SVG interactive doll */ 
 
 @-moz-keyframes fade-in {
@@ -473,7 +479,7 @@ h2 {
 #stage {
   /*width:960px;
   height:700px;*/
-  margin:0 auto;
+  margin-left:-20px;
 }
 
 
