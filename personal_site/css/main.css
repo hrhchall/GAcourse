@@ -296,6 +296,10 @@ h2 {
   padding:40px;
 }
 
+#funfacts {
+  margin-top:;
+}
+
 /* SVG interactive doll */ 
 
 @-moz-keyframes fade-in {
@@ -464,8 +468,8 @@ h2 {
 
 
 #stage {
-  width:960px;
-  height:700px;
+  /*width:960px;
+  height:700px;*/
   margin:0 auto;
 }
 
