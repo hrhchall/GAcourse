@@ -61,15 +61,15 @@
     </header>
     <div id="home_content">
       <div class="row">
-      <div class="col-md-4 col-sm-6 col-xs-3" id="lefthome">
+      <div class="col-md-4 col-sm-6 col-xs-3 fadeinleft" id="lefthome">
         <img src="images/bird.png" class="img-responsive" alt="Responsive image" height="100" id="bird"/>
 
       </div>
-      <div class="col-md-8 col-xs-10 col-sm-6" id="home_text">
+      <div class="col-md-8 col-xs-10 col-sm-6 fadein" id="home_text">
 
         <h2>About me </h2>
         <!-- <img src="images/pointer.png" class="img-responsive" alt="Responsive image" height="100"/> -->
-        <p class="welcome_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        <p class="welcome_text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
         consequat. </p>
@@ -111,5 +111,15 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/interactive-svg.js"></script>
+    <script type="text/javascript">
+    tiles = $("#quote_about, #funfacts, #footer").fadeTo(0, 0);
+
+    $(window).scroll(function(d,h) {
+    tiles.each(function(i) {
+        a = $(this).offset().top + $(this).height();
+        b = $(window).scrollTop() + $(window).height();
+        if (a < b) $(this).fadeTo(300,1);
+    });
+});</script>
   </body>
 </html>

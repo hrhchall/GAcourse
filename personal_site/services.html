@@ -62,24 +62,25 @@
     </header>
     <div id="home_content">
       <div class="row">
-        <div class="col-md-4 col-sm-6 col-xs-3">
+        <div class="col-md-4 col-sm-6 col-xs-3 fadein">
          <img src="images/cube.png"class="img-responsive cube" alt="Responsive image"/>
         </div>
-        <div class="col-md-8 col-xs-10 col-sm-6" id="home_text">
-          <h2 class="serviceshead fadein">Some text about services</h2>
+        <div class="col-md-8 col-xs-10 col-sm-6 fadein" id="home_text">
+          <h2 class="serviceshead ">Some text about services</h2>
            <p class="welcome_text services_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p>
         </div>
       </div> <!--row-->
     </div>
   </section>
-    <section id="bottom_services" class="fadein">
+    <section id="bottom_services">
+      <div id="bottom_wrap">
       <div class="container">
       <div class="row ">
         <h3 id="skillshead">Skills and Expertise</h3>
         <div class="col-md-4 col-sm-6 col-xs-6">
           <div class="header_line"> </div>
-          <h4>Heading</h4>
+          <h4 class="headingfade">Heading</h4>
           <p class="gridp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           </p>
@@ -87,7 +88,7 @@
 
         <div class="col-md-4 col-sm-6 col-xs-6">
           <div class="header_line"> </div>
-          <h4>Heading</h4>
+          <h4 class="headingfade">Heading</h4>
           <p class="gridp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           </p>
@@ -95,7 +96,7 @@
 
         <div class="col-md-4 col-sm-6 col-xs-6">
           <div class="header_line"> </div>
-          <h4>Heading</h4>
+          <h4 class="headingfade">Heading</h4>
           <p class="gridp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           </p>
@@ -106,7 +107,7 @@
        <div class="row">
         <div class="col-md-4 col-sm-6 col-xs-6 bottom">
           <div class="header_line"> </div>
-          <h4>Heading</h4>
+          <h4 class="headingfade">Heading</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           </p>
@@ -114,7 +115,7 @@
 
         <div class="col-md-4 col-sm-6 col-xs-6 bottom">
           <div class="header_line"> </div>
-          <h4>Heading</h4>
+          <h4 class="headingfade">Heading</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           </p>
@@ -122,13 +123,14 @@
 
         <div class="col-md-4 col-sm-6 col-xs-6 bottom">
           <div class="header_line"> </div>
-          <h4>Heading</h4>
+          <h4 class="headingfade">Heading</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           </p>
         </div>
         </div><!-- /container -->
       </div> <!--row -->
+    </div>
     </section>
 
 
@@ -147,5 +149,16 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+     <script src="js/waypoints.min.js"></script>
+     <script type="text/javascript">
+    tiles = $("#skillshead, .headingfade, .header_line, .gridp").fadeTo(0, 0);
+
+    $(window).scroll(function(d,h) {
+    tiles.each(function(i) {
+        a = $(this).offset().top + $(this).height();
+        b = $(window).scrollTop() + $(window).height();
+        if (a < b) $(this).fadeTo(300,1);
+    });
+});</script>
   </body>
 </html>
