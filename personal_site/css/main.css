@@ -126,7 +126,39 @@ textarea {
 }
 
 
-@-webkit-keyframes fadeInLeft{0%{opacity:0;-webkit-transform:translateX(-20px)}100%{opacity:1;-webkit-transform:translateX(0)}}@-moz-keyframes fadeInLeft{0%{opacity:0;-moz-transform:translateX(-20px)}100%{opacity:1;-moz-transform:translateX(0)}}@-o-keyframes fadeInLeft{0%{opacity:0;-o-transform:translateX(-20px)}100%{opacity:1;-o-transform:translateX(0)}}@keyframes fadeInLeft{0%{opacity:0;transform:translateX(-20px)}100%{opacity:1;transform:translateX(0)}}.fadeInLeft{-webkit-animation-name:fadeInLeft;-moz-animation-name:fadeInLeft;-o-animation-name:fadeInLeft;animation-name:fadeInLeft;-webkit-animation-delay:1s;-moz-animation-delay:1s;-o-animation-delay:1s;animation-delay:1s;-webkit-animation-duration:1s;-webkit-animation-fill-mode:both;-moz-animation-duration:1s;-moz-animation-fill-mode:both;-o-animation-duration:1s;-o-animation-fill-mode:both;animation-duration:1s;animation-fill-mode:both}
+@-webkit-keyframes fadeInLeft{
+  0%{opacity:0;-webkit-transform:translateX(-20px)}
+  100%{opacity:1;-webkit-transform:translateX(0)}}
+
+@-moz-keyframes fadeInLeft{
+  0%{opacity:0;-moz-transform:translateX(-20px)}
+  100%{opacity:1;-moz-transform:translateX(0)}}
+
+@-o-keyframes fadeInLeft{
+  0%{opacity:0;-o-transform:translateX(-20px)}
+  100%{opacity:1;-o-transform:translateX(0)}}
+
+@keyframes fadeInLeft{0%{
+  opacity:0;transform:translateX(-20px)}
+  100%{opacity:1;transform:translateX(0)}}
+
+ /* .fadeInLeft{
+    -webkit-animation-name:fadeInLeft;
+    -moz-animation-name:fadeInLeft;
+    -o-animation-name:fadeInLeft;
+    animation-name:fadeInLeft;
+    -webkit-animation-delay:1s;
+    -moz-animation-delay:1s;
+    -o-animation-delay:1s;
+    animation-delay:1s;
+    -webkit-animation-duration:1s;
+    -webkit-animation-fill-mode:both;
+    -moz-animation-duration:1s;
+    -moz-animation-fill-mode:both;
+    -o-animation-duration:1s;
+    -o-animation-fill-mode:both;
+    animation-duration:1s;
+    animation-fill-mode:both}*/
 
 .fadeinleft{
 -webkit-animation-name:fadeInLeft;
@@ -193,6 +225,7 @@ animation-fill-mode:both;
   background-position-x:320px;
   background-position-y:192px;
 }
+
 .navbar-default {
   background-color: #FFC800;
   border-color:#FFC800;
@@ -496,6 +529,28 @@ h4 {
   }
 }
 
+@media only screen and (max-width: 1200px) {
+ 
+ .container_home {
+    background-size:105px;
+    background-position-x:254px;
+    background-position-y:237px;
+  }
+
+.container_about {
+    background-size:105px;
+    background-position-x:254px;
+    background-position-y:237px;
+  }
+
+  .container_services {
+    background-size:105px;
+    background-position-x:254px;
+    background-position-y:237px;
+  }
+
+}
+
 @media only screen and (max-width: 900px) {
   
   h2 {
@@ -525,6 +580,13 @@ h4 {
     background-image:none;
    }
 
+   .container_services {
+    background-image:none;
+   }
+
+   #rubix {
+    display:none;
+   }
   
 }
 
