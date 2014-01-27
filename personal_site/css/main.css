@@ -127,19 +127,19 @@ textarea {
 
 
 @-webkit-keyframes fadeInLeft{
-  0%{opacity:0;-webkit-transform:translateX(-20px)}
+  0%{opacity:0;-webkit-transform:translateX(-100px)}
   100%{opacity:1;-webkit-transform:translateX(0)}}
 
 @-moz-keyframes fadeInLeft{
-  0%{opacity:0;-moz-transform:translateX(-20px)}
+  0%{opacity:0;-moz-transform:translateX(-100px)}
   100%{opacity:1;-moz-transform:translateX(0)}}
 
 @-o-keyframes fadeInLeft{
-  0%{opacity:0;-o-transform:translateX(-20px)}
+  0%{opacity:0;-o-transform:translateX(-100px)}
   100%{opacity:1;-o-transform:translateX(0)}}
 
 @keyframes fadeInLeft{0%{
-  opacity:0;transform:translateX(-20px)}
+  opacity:0;transform:translateX(-100px)}
   100%{opacity:1;transform:translateX(0)}}
 
  /* .fadeInLeft{
@@ -337,9 +337,11 @@ text-align:center; }
 }
 
 h2 {
-  font-weight:600;
-  font-size: 8em;
+  font-weight:800;
+  font-size: 5.9em;
   color:white;
+  text-transform:uppercase;
+
 }
 
 .welcome_text {
@@ -421,11 +423,13 @@ h2 {
 }
 
 #skillshead {
-  font-size:6em;
+  font-size:5.9em;
   text-align:center;
   margin-top:100px;
   margin-bottom:60px;
   color:white;
+  font-weight:800;
+  text-transform:uppercase;
 }
 
 .header_line {
@@ -443,9 +447,11 @@ h2 {
 
 .gridp {
 
-  color:white;
+color:white;
 margin-bottom:65px;
 margin-top:20px;
+text-align: center;
+font-size:1.5em;
 }
 
 .bottom {
@@ -453,7 +459,7 @@ margin-top:20px;
   color:white;
 }
 
-h4 {
+.gridheading {
   color:white;
   font-size: 4em;
   text-align: center;
