@@ -612,6 +612,11 @@ span.imagetitle {
 .screenshot {
   margin-top:85px;
 }
+
+.project_description {
+  font-size:1.5em;
+  text-align:right;
+}
 /* media queries */ 
 /* Tablet Layout: 768px.
  * Gutters: 24px.
