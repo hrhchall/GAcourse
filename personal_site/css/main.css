@@ -517,7 +517,7 @@ font-size:1.5em;
 
 span.imagetitle {
   font-style:oblique;
-  font-size:1.9em;
+  font-size:1.8em;
   text-align:center;
   color:white;
 }
@@ -525,6 +525,19 @@ span.imagetitle {
 #foliotitle {
   text-align:center;
   margin-bottom: 60px;
+}
+
+.folioline {
+   display: block;
+  content: "";
+  width:80px;
+  height:7px;
+  position:absolute;
+  bottom:100px;
+  left:50%;
+  margin-left:-40px;
+  background-color:#FFC800;
+  top:88px;
 }
 
 .img_desc {
@@ -537,7 +550,7 @@ span.imagetitle {
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all 0.2s ease-in-out;
-  font-size:1em;
+  font-size:1.3em;
   text-align:center;
   color:white;
 
@@ -581,7 +594,24 @@ span.imagetitle {
           transition: all 0.4s ease-in-out;
         }
 
+#white_stretch {
+  background-color:white;
+  min-width: 100%;
+}
 
+.workexample_title {
+  color:#333333;
+  text-align:right;
+}
+
+.bricks_folia {
+  margin-top:61px;
+  margin-bottom:50px;
+}
+
+.screenshot {
+  margin-top:85px;
+}
 /* media queries */ 
 /* Tablet Layout: 768px.
  * Gutters: 24px.
