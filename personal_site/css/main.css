@@ -198,6 +198,10 @@ animation-fill-mode:both;
   background-color: #252525;
 }
 
+#work_body {
+  background-color: #252525;
+}
+
 #about_nav {
   background-color: #252525;
   border-color:#252525;
@@ -492,9 +496,85 @@ font-size:1.5em;
     from {-webkit-transform: rotate(0deg);}
     to {-webkit-transform: rotate(360deg);}
 }
+
+.bricks {
+  margin-top:100px;
 }
 
+#work_nav {
+  background-color:#252525;
+  border-color:#252525;
+}
 
+.portfolio_imagestop {
+  margin-bottom:30px;
+}
+
+.img_wrap {
+  position:relative;
+  z-index: 1000;
+}
+
+span.imagetitle {
+  font-style:oblique;
+  font-size:1.9em;
+  text-align:center;
+  color:white;
+}
+
+.img_desc {
+  position:absolute;
+  top: 70px;
+  left: -45px;
+  margin-left: 50px;
+  padding:8px;
+  font-weight: 500;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  font-size:1em;
+  text-align:center;
+  color:white;
+
+}
+
+.img_wrap {
+  background-color:#FFC800;
+}
+
+.work-opacity_hover {
+  transition: all 0.6s ease-in-out;
+  opacity:1.0;
+}
+
+.work-opacity_hover:hover {
+  opacity:0;
+  
+}
+
+.img_wrap:hover .img_desc {
+  display:block;
+  visibility: visible;
+  opacity: 1;
+  z-index: -2;
+}
+
+-webkit-transition-duration: 0.2s;{
+          -webkit-transition-property: color, background-color, opacity;
+          -moz-transition-duration: 0.4s;
+          -moz-transition-property: color, background-color, opacity;
+          -o-transition-duration: 0.4s;
+          -o-transition-property: color, background-color, opacity;
+          transition-duration: 0.4s;
+          transition-property: color, background-color, opacity;
+        }   
+.work-opacity_hover{
+          -ms-transition: all 0.4s ease-in-out;
+          -webkit-transition: all 0.4s ease-in-out;
+          -moz-transition: all 0.4s ease-in-out;
+          -o-transition: all 0.4s ease-in-out;
+          transition: all 0.4s ease-in-out;
+        }
 
 
 /* media queries */ 
