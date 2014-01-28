@@ -522,6 +522,11 @@ span.imagetitle {
   color:white;
 }
 
+#foliotitle {
+  text-align:center;
+  margin-bottom: 60px;
+}
+
 .img_desc {
   position:absolute;
   top: 70px;
