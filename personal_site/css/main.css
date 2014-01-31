@@ -403,6 +403,11 @@ h2 {
   padding:50px;
   text-transform: uppercase;
   text-align:center;
+  font-weight:600;
+}
+
+#about_p {
+  margin-bottom:90px;
 }
 
 #quote_about span {
@@ -476,7 +481,7 @@ font-size:1.5em;
 }
 
 .bottom {
-  margin-bottom:100px;
+  /*margin-bottom:100px;*/
   color:white;
 }
 
