@@ -292,6 +292,10 @@ header #menu {
 
 }
 
+.active_tab a {
+  border-bottom: 5px solid white;
+}
+
 ul {
  /* height:70px;*/
 }
