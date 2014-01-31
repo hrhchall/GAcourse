@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head> 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,46 +49,58 @@
         </div>
         <div class="navbar-collapse collapse" id="menu">
           <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="work.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </div><!--nav-collapse -->
       </div> <!--nav-collapse -->
       
     </header>
-     <div id="home_content">
-      <div class="row">
-        <div class="col-md-4 col-sm-6 col-xs-3 fadein">
-         <img src="images/bricks.png"class="img-responsive bricks_folia" alt="Responsive image"/>
+     <!-- Contacts -->
+ <div id="contacts">
+  <div class="row">
+
+    <div class="col-md-4 col-sm-4 col-xs-3 fadeinleft plane">
+         <img src="images/paper_plane.png"class="img-responsive" alt="Responsive image"/>
         </div>
-        <div class="col-md-8 col-xs-10 col-sm-6 fadein" id="home_text">
-          <h2 class="serviceshead">/Portfolio</h2>
+    <div class="col-md-8 col-xs-8 col-sm-8 fadein" id="home_text">
+          <h2>I'd like to hear from you</h2>
         </div>
-      </div> <!--row-->
+    
+  </div>
+   <div class="row">  
+     <!-- Alignment -->
+  <div class="col-md-offset-2 col-md-8">
+     <!-- Form itself -->
+    <form name="sentMessage" class="well" id="contactForm"  novalidate>
+      <legend><p class="contact_p">Send me a message</p></legend>
+     <div class="control-group">
+      <div class="controls">
+      <input type="text" class="form-control" placeholder="Full Name" id="name" required data-validation-required-message="Please enter your name" />
+      <p class="help-block"></p>
+       </div>
+           </div>   
+        <div class="control-group">
+          <div class="controls">
+      <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Please enter your email" />
     </div>
-    </div> <!-- /container -->
-    <section id="white_stretch">
-      <div class="container">
-    <div id="home_content">
-      <div class="row">
-        <div class="col-md-7 col-sm-7 col-xs-12 fadein">
-         <img src="images/reuben_bothscreens_xs3.png" alt="Responsive image" class="img-responsive screenshot"/>
-        </div>
-        <div class="col-md-5 col-xs-12 col-sm-5 fadein" id="home_text">
-          <h2 class="workexample_title">Project name</h2>
-           <p class="project_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        </div>
-      </div> <!--row-->
+      </div>  
+               <div class="control-group">
+                 <div class="controls">
+         <textarea rows="10" cols="100" class="form-control" placeholder="Message" id="message" required
+           data-validation-required-message="Please enter your message" minlength="5" data-validation-minlength-message="Min 5 character" maxlength="999" style="resize:none"></textarea>
+    </div>
+               </div>      
+       <div id="success"> </div> <!-- For success/fail messages -->
+      <button type="submit" class="btn btn-primary pull-right">Send</button><br />
+          </form>
+  </div>
+      </div>
     </div>
   </div> <!--closed container -->
-  </section>
-
-    
   </div> <!-- /wrap -->
     <div id="footer_services">
       <div class="container">
@@ -102,6 +114,11 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jqbootstrapvalidation.js"></script>
+    <script>
+    $(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
+    </script>
+    <script src="js/contact_me.js"></script>
      <script src="js/waypoints.min.js"></script>
      <script type="text/javascript">
     tiles = $("#skillshead, .headingfade, .header_line, .gridp").fadeTo(0, 0);

@@ -633,6 +633,57 @@ span.imagetitle {
   font-size:1.5em;
   text-align:right;
 }
+
+
+/* contact page */
+
+form {
+  background-color:#FFC800;
+  margin-top:70px;
+}
+
+.well {
+
+  border:none;
+}
+
+legend {
+  border:none;
+  color:#252525;
+}
+
+.form-control {
+  color:white;
+  background-color: #252525;
+  border:1px solid white;
+}
+
+.form-control:focus {
+  border-color:#FFC800;
+}
+
+.contact_p {
+  text-transform: uppercase;
+  text-align:center;
+  font-size:1.5em;
+
+}
+
+.btn-primary {
+  background-color: #383835;
+  border:none;
+}
+
+.btn-primary:hover {
+  background-color:#FFC800;
+  border:none;
+}
+
+.plane {
+  margin-top:60px;
+}
+
+
 /* media queries */ 
 /* Tablet Layout: 768px.
  * Gutters: 24px.
