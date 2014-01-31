@@ -370,6 +370,21 @@ h2 {
   font-weight:600;
 }
 
+#findoutmore p a{
+  color:white;
+  font-size:1.8em;
+  text-transform: uppercase;
+  font-weight:700;
+}
+
+#findoutmore p a:hover {
+  border-bottom: 6px solid white;
+}
+
+#findoutmore a:hover {
+  text-decoration: none;
+}
+
 .navbar-header {
   position:absolute;
   top:0;
@@ -513,10 +528,29 @@ font-size:1.5em;
     -webkit-animation-duration: 5s; 
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
+    -moz-animation-name: rotateX; 
+    -moz-animation-duration: 5s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -o-animation-name: rotateX; 
+    -o-animation-duration: 5s; 
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+
 }
 @-webkit-keyframes rotateX {
     from {-webkit-transform: rotate(0deg);}
     to {-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes rotateX {
+  from {-moz-transform:rotate(0deg);}
+  to {-moz-transform:rotate(360deg);}
+}
+
+@-o-keyframes rotateX {
+  from {-o-transform:rotate(0deg);}
+  from {-o-transform:rotate(360deg);}
 }
 
 .bricks {
