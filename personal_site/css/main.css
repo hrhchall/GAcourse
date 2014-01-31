@@ -667,9 +667,12 @@ span.imagetitle {
   }
 
   h2 {
-    font-size:5em;
+    font-size:2.6em;
   }
 
+#home_text h2 {
+  font-size:2.6em;
+}
   .container_about {
     background-size:105px;
     background-position-x:254px;
