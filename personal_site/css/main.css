@@ -397,8 +397,7 @@ h2 {
 
 
 #quote_about {
-
-  font-size:9em;
+  font-size:5em;
   margin-top:75px;
   margin-bottom:75px;
   padding:50px;
@@ -780,6 +779,10 @@ legend {
     display:none;
   }
 
+  .navbar-default .navbar-nav li a:hover {
+    border-bottom:none;
+   }
+
   #home_text {
     margin-left:30px;
   }
@@ -819,6 +822,10 @@ legend {
     display:none;
    }
 
+   .navbar-default .navbar-nav li a {
+    font-size:1.4em;
+   }
+
    .navbar-default .navbar-nav li a:hover {
     border-bottom:none;
    }
@@ -833,7 +840,7 @@ legend {
   }
 
   .active_tab {
-    border:none;
+    border-bottom:transparent;
     display:none;
   }
 }
