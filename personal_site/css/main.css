@@ -300,28 +300,33 @@ ul {
 }
 
 #equals {
-  margin-top:30px;
-  /*margin-top:180px;*/
-  
- /* height:12em;
-  background-image: url('../images/homepage_whitequals.png');
-  background-size:14em;
-  height:9em;
-  background-repeat:no-repeat;
-  */
+margin-top:30px;
 display:inline-block;
 padding:40px;
 -webkit-animation:wobble 5s ease-in-out infinite;
 -webkit-transform-origin:center bottom;
 -webkit-transition:padding .3s, bottom .3s;
+-o-animation:wobble 5s ease-in-out infinite;
+-o-transform-origin:center bottom;
+-o-transition:padding .3s, bottom .3s;
+-moz-animation:wobble 5s ease-in-out infinite;
+-moz-transform-origin:center bottom;
+-moz-transition:padding .3s, bottom .3s;
 text-align:center; }
 
-@-webkit-keyframes wobble { 33%{ -webkit-transform:rotate(5deg); } 66%{-webkit-transform:rotate(-5deg); } }
+@-webkit-keyframes wobble {
+ 33%{ -webkit-transform:rotate(5deg); } 66%{-webkit-transform:rotate(-5deg); } }
 
-}
+
+
+@-moz-keyframes wobble {
+  33%{-moz-transform:rotate(5deg);} 66%{-moz-transform:rotate(-5deg);}}
+
+@-o-keyframes wobble {
+  33%{-o-transform:rotate(5deg);} 66%{-moz-transform:rotate(-5deg);}}
 
 #lefthome {
-  margin-left:65px;
+  /*margin-left:65px;*/
   margin-top:20px;
 }
 
@@ -655,6 +660,17 @@ span.imagetitle {
   }
 }
 
+@media only screen and (max-width: 966px) {
+  
+  #home_text h2 {
+    font-size:2.6em;
+  }
+}
+
+
+
+
+
 @media only screen and (max-width: 1200px) {
  
  .container_home {
@@ -693,6 +709,10 @@ span.imagetitle {
 
   #home_text {
     margin-left:30px;
+  }
+
+  #home_text h2 {
+   font-size:5em;
   }
 
   .navbar-nav {
