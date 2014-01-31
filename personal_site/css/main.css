@@ -229,8 +229,8 @@ animation-fill-mode:both;
   background-image: url('../images/pointer.png');
   background-repeat:no-repeat;
   background-position-x:320px;
-  background-position-y:192px;
-  background-position:320px 192px;
+  background-position-y:172px;
+  background-position:320px 172px;
 }
 
 .navbar-default {
@@ -678,6 +678,13 @@ span.imagetitle {
     background-position-x:254px;
     background-position-y:230px;
     background-position:254px 230px;
+  }
+
+   .container_services {
+    background-size:105px;
+    background-position-x:330px;
+    background-position-y:207px;
+    background-position:330px 207px;
   }
 
 }
