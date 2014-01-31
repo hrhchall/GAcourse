@@ -528,7 +528,7 @@ font-size:1.5em;
 
 .img_wrap {
   position:relative;
-  z-index: 1000;
+  z-index: 1009;
 }
 
 span.imagetitle {
@@ -742,6 +742,15 @@ legend {
     background-position:330px 207px;
   }
 
+  .work_title {
+    margin-top:90px;
+  }
+
+  .img_desc {
+    top:15px;
+    font-size:1.1em;
+  }
+
 }
 
 
@@ -802,6 +811,10 @@ legend {
     display:none;
    }
 
+   .bricks_folia {
+    display:none;
+   }
+
    .navbar-default .navbar-nav li a:hover {
     border-bottom:none;
    }
@@ -810,6 +823,10 @@ legend {
     box-shadow: none;
    }
   
+  .work_title {
+    margin-top:0px;
+    margin-bottom:90px;
+  }
 }
 
 @media only screen and (max-width: 763px) {
