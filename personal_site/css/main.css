@@ -212,6 +212,7 @@ animation-fill-mode:both;
   background-repeat:no-repeat;
   background-position-x:328px;
   background-position-y:330px;
+  background-position:328px 330px;
 
 }
 
@@ -220,6 +221,7 @@ animation-fill-mode:both;
   background-repeat:no-repeat;
   background-position-x:320px;
   background-position-y:192px;
+  background-position:320px 192px;
 
 }
 
@@ -228,6 +230,7 @@ animation-fill-mode:both;
   background-repeat:no-repeat;
   background-position-x:320px;
   background-position-y:192px;
+  background-position:320px 192px;
 }
 
 .navbar-default {
@@ -293,6 +296,10 @@ ul {
  /* height:70px;*/
 }
 
+
+.navbar-collapse {
+  border-top:none;
+}
 
 
 #side-text {
@@ -732,6 +739,14 @@ span.imagetitle {
 
    #rubix {
     display:none;
+   }
+
+   .navbar-default .navbar-nav li a:hover {
+    border-bottom:none;
+   }
+
+   .navbar-collapse {
+    box-shadow: none;
    }
   
 }
