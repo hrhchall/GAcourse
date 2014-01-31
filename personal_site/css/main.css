@@ -815,6 +815,10 @@ legend {
     display:none;
    }
 
+   .plane {
+    display:none;
+   }
+
    .navbar-default .navbar-nav li a:hover {
     border-bottom:none;
    }
@@ -826,6 +830,11 @@ legend {
   .work_title {
     margin-top:0px;
     margin-bottom:90px;
+  }
+
+  .active_tab {
+    border:none;
+    display:none;
   }
 }
 
