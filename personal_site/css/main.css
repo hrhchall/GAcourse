@@ -642,22 +642,26 @@ span.imagetitle {
     background-size:105px;
     background-position-x:254px;
     background-position-y:237px;
+    background-position:254px 237px;
   }
 
   .container_about {
     background-size:105px;
     background-position-x:254px;
-    background-position-y:237px;
+    background-position-y:200px;
+    background-position:254px 200px;
   }
 
   .container_services {
     background-size:105px;
-    background-position-x:254px;
+    background-position-x:330px;
     background-position-y:237px;
+    background-position:330px 237px;
   }
 }
 
  @media only screen and (max-width: 986px) {
+  
   header #menu {
     margin-left:-25px;
   }
@@ -665,45 +669,33 @@ span.imagetitle {
   h2 {
     font-size:5em;
   }
-}
 
-@media only screen and (max-width: 966px) {
-  
-  #home_text h2 {
-    font-size:2.6em;
-  }
-}
-
-
-
-
-
-@media only screen and (max-width: 1200px) {
- 
- .container_home {
+  .container_about {
     background-size:105px;
     background-position-x:254px;
-    background-position-y:237px;
-  }
-
-.container_about {
-    background-size:105px;
-    background-position-x:254px;
-    background-position-y:237px;
-  }
-
-  .container_services {
-    background-size:105px;
-    background-position-x:254px;
-    background-position-y:237px;
+    background-position-y:230px;
+    background-position:254px 230px;
   }
 
 }
+
+
 
 @media only screen and (max-width: 900px) {
   
   h2 {
     font-size:5em;
+  }
+
+  .container_about {
+    background-size:105px;
+    background-position-x:254px;
+    background-position-y:230px;
+    background-position:254px 230px;
+  }
+
+  #funfacts h2 {
+    text-align:center;
   }
   
 }
