@@ -277,6 +277,7 @@ header #menu {
 .navbar-default .navbar-nav li a:hover {
  border-bottom: 5px solid white;
  color:white;
+ /*background-image: url('../images/bck_hover.jpg');*/
 }
 
 .navbar-default .navbar-nav li a:focus {
@@ -289,7 +290,12 @@ header #menu {
   font-weight:bold;
   letter-spacing:.2em;
   margin-left: 1.2em;
+  padding-top:3px;
 
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color:white;
 }
 
 .active_tab a {
@@ -305,6 +311,22 @@ ul {
   border-top:none;
 }
 
+/*li a span.bck_hover {
+  background-image: url('../images/bck_hover.jpg');
+  width:100%;
+  height:100%;
+  position:absolute;
+  display:block;
+  top:0;
+  left:0;
+  opacity:0;
+  -webkit-transition: all .3s ease-in;
+  z-index: -1;
+}
+
+li a span.bck_hover:hover {
+  opacity:1;
+}*/
 
 #side-text {
   font-size: 12px;
@@ -438,8 +460,8 @@ h2 {
 #funfacts {
   margin-top:89px;
   font-size:8em;
-  margin-left:89px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .footertext {
@@ -598,7 +620,7 @@ span.imagetitle {
 
 .img_desc {
   position:absolute;
-  top: 70px;
+  top: 45px;
   left: -45px;
   margin-left: 50px;
   padding:8px;
@@ -614,6 +636,11 @@ span.imagetitle {
 
 .img_wrap {
   background-color:#FFC800;
+  margin-bottom:30px;
+}
+
+.more_work {
+  border-bottom:3px white solid;
 }
 
 .work-opacity_hover {
@@ -622,7 +649,7 @@ span.imagetitle {
 }
 
 .work-opacity_hover:hover {
-  opacity:0;
+  opacity:0.1;
   
 }
 
@@ -657,7 +684,7 @@ span.imagetitle {
 
 .workexample_title {
   color:#333333;
-  text-align:right;
+  text-align:center;
 }
 
 .bricks_folia {
@@ -671,7 +698,8 @@ span.imagetitle {
 
 .project_description {
   font-size:1.5em;
-  text-align:right;
+  text-align:center;
+  margin-bottom:50px;
 }
 
 
@@ -796,6 +824,7 @@ body {
     font-size:1.1em;
   }
 
+ 
 }
 
 
@@ -816,10 +845,15 @@ body {
   #funfacts h2 {
     text-align:center;
   }
+
+ 
   
 }
 
 @media only screen and (max-width: 767px) {
+.navbar-default .navbar-nav li a:hover {
+  background-image: url('../images/bck_hover.jpg');
+}
   
   #lefthome {
     display:none;
@@ -828,10 +862,6 @@ body {
   .navbar-default .navbar-nav li a:hover {
     border-bottom:none;
    }
-
-  #home_text {
-    margin-left:30px;
-  }
 
   #home_text h2 {
    font-size:5em;
@@ -870,6 +900,7 @@ body {
 
    .navbar-default .navbar-nav li a {
     font-size:1.4em;
+    height:1.4em;
    }
 
    .navbar-default .navbar-nav li a:hover {
@@ -885,30 +916,50 @@ body {
     margin-bottom:90px;
   }
 
-  .active_tab {
-    border-bottom:transparent;
-    display:none;
-  }
+  .active_tab a {
+  border-bottom: 0px solid transparent;
 }
+
+.img_desc span.imagetitle {
+  font-size:2em;
+}
+
+.img_desc {
+  font-size:2.3em;
+}
+
+} 
 
 @media only screen and (max-width: 763px) {
   
   #lefthome {
     display:none;
   }
-
-  #home_text {
-    margin-left:30px;
-  }
   
 }
 
-@media only screen and (max-width: 426px) {
-  #logo {
-    height:5em;
-  }
-
+@media only screen and (max-width: 680px) {
+  .img_desc span.imagetitle {
+  font-size:2em;
 }
+
+.img_desc {
+  font-size:2em;
+}
+
+  
+}
+
+@media only screen and (max-width: 600px) {
+
+
+.img_desc {
+  font-size:1.5em;
+}
+
+  
+}
+
 
 @media only screen and (max-width: 500px) {
   #logo {
@@ -920,6 +971,83 @@ body {
   }
 
 }
+
+@media only screen and (max-width: 530px) {
+  #skillshead {
+    font-size: 3.5em;
+  }
+
+  #home_text h2 {
+    font-size: 3.5em;
+  }
+
+  .gridheading {
+    font-size: 3em;
+  }
+
+  #quote_about {
+    font-size:4.5em;
+  }
+
+  #funfacts {
+    font-size:4.5em;
+  }
+
+  .gridp {
+    font-size:1.3em;
+  }
+
+  .grid_full {
+    width:100%;
+  }
+
+}
+
+@media only screen and (max-width: 410px) {
+ .img_desc {
+  font-size:1.1em;
+}
+
+
+}
+
+@media only screen and (max-width: 460px) {
+ .img_desc {
+  font-size:1.3em;
+}
+
+
+}
+
+@media only screen and (max-width: 426px) {
+  #logo {
+    height:5em;
+  }
+
+}
+
+@media only screen and (max-width: 372px) {
+  #home_text h2 {
+    font-size: 3em;
+  }
+
+}
+
+@media only screen and (max-width: 356px) {
+   .img_desc {
+  font-size:0.9em;
+}
+
+}
+
+@media only screen and (max-width: 310px) {
+   .img_desc {
+  font-size:0.8em;
+}
+
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
