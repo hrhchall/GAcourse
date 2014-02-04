@@ -28,6 +28,10 @@
     <![endif]-->
     <script type="text/javascript" src="//use.typekit.net/ayu8cus.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript">  if (!Modernizr.svg) {
+  $(".logo img").attr("src", "images/logo.png");
+}</script>
+    
     </head>
 
   <body id="about_body">
@@ -93,10 +97,13 @@
 
 <!--  <div class="row"> -->
    <div class="col-md-8 col-md-offset-2 col-xs-12 col-sm-12">
+
     <div id="stage" class="img-responsive">
     </div><!-- #stage -->
+    <div class="fallback"></div>
     </div>
   </div><!-- row -->
+  <a href="#" class="back-to-top"><img src="images/arrow_top3.png" height="40px"></a>
     </div> <!-- /container -->
     <div id="footer">
       <div class="container">
@@ -121,5 +128,26 @@
         if (a < b) $(this).fadeTo(300,1);
     });
 });</script>
+  <script type="text/javascript">
+
+jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+
+  </script>
   </body>
 </html>

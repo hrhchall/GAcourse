@@ -101,6 +101,30 @@ textarea {
 }*/
 
 
+.fallback { 
+  display: none;
+  width: 908px;
+  height:607px;
+  /* Make sure it's the same size as the SVG takes up */
+}
+.no-svg .fallback { 
+  background-image: url('../images/russiandoll_interactive.png'); 
+}
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+}
+
+.left_arrow {
+  margin-bottom:40px;
+}
+
+
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
 @-webkit-keyframes fade-in{
