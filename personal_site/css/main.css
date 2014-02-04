@@ -125,8 +125,6 @@ textarea {
 }
 
 
-@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
-
 @-webkit-keyframes fade-in{
   0%   { opacity: 0; }
   100% { opacity: 1; }
