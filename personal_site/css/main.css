@@ -100,6 +100,9 @@ textarea {
   opacity:0;
 }*/
 
+
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+
 @-webkit-keyframes fade-in{
   0%   { opacity: 0; }
   100% { opacity: 1; }
@@ -387,9 +390,9 @@ h2 {
 }
 
 .welcome_text {
-  font-size:1.8em;
+  font-size:1.6em;
   color:white;
-  font-weight:600;
+  font-weight:500;
 }
 
 #findoutmore p a{
@@ -434,7 +437,7 @@ h2 {
 
 
 #quote_about {
-  font-size:6em;
+  font-size:5em;
   margin-top:75px;
   margin-bottom:75px;
   padding:50px;
@@ -697,11 +700,21 @@ span.imagetitle {
 }
 
 .project_description {
-  font-size:1.5em;
+  font-size:1.6em;
   text-align:center;
   margin-bottom:50px;
+  font-weight:500;
 }
 
+.project_description a {
+  color:#333333;
+  border-bottom:4px solid #333333;
+}
+
+.project_description a:hover {
+  border-bottom:4px solid #333333;
+  text-decoration:none;
+}
 
 /* contact page */
 
@@ -800,6 +813,11 @@ body {
 
 #home_text h2 {
   font-size:2.6em;
+}
+
+#services_text h2 {
+  font-size: 4.6em;
+  margin-top:79px;
 }
   .container_about {
     background-size:105px;
@@ -928,6 +946,11 @@ body {
   font-size:2.3em;
 }
 
+#services_text {
+  margin-top:0px;
+  margin-bottom:20px;
+}
+
 } 
 
 @media only screen and (max-width: 763px) {
@@ -950,6 +973,15 @@ body {
   
 }
 
+
+@media only screen and (max-width: 680px) {
+ #quote_about {
+  font-size:4em;
+ }
+
+  
+}
+
 @media only screen and (max-width: 600px) {
 
 
@@ -958,18 +990,6 @@ body {
 }
 
   
-}
-
-
-@media only screen and (max-width: 500px) {
-  #logo {
-    height:5em;
-  }
-
-  h2 {
-    font-size: 4em;
-  }
-
 }
 
 @media only screen and (max-width: 530px) {
@@ -986,7 +1006,7 @@ body {
   }
 
   #quote_about {
-    font-size:4.5em;
+    font-size:2.5em;
   }
 
   #funfacts {
@@ -1003,13 +1023,17 @@ body {
 
 }
 
-@media only screen and (max-width: 410px) {
- .img_desc {
-  font-size:1.1em;
+@media only screen and (max-width: 500px) {
+  #logo {
+    height:5em;
+  }
+
+  h2 {
+    font-size: 4em;
+  }
+
 }
 
-
-}
 
 @media only screen and (max-width: 460px) {
  .img_desc {
@@ -1019,6 +1043,7 @@ body {
 
 }
 
+
 @media only screen and (max-width: 426px) {
   #logo {
     height:5em;
@@ -1026,9 +1051,22 @@ body {
 
 }
 
+@media only screen and (max-width: 410px) {
+ .img_desc {
+  font-size:1.1em;
+}
+
+
+}
+
+
 @media only screen and (max-width: 372px) {
   #home_text h2 {
     font-size: 3em;
+  }
+
+  #quote_about {
+    font-size:2em;
   }
 
 }
@@ -1044,6 +1082,11 @@ body {
    .img_desc {
   font-size:0.8em;
 }
+
+
+#quote_about {
+    font-size:1.7em;
+  }
 
 }
 
