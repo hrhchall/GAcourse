@@ -600,6 +600,7 @@ span.imagetitle {
 
 .work-opacity_hover:hover {
   opacity:0.1;
+  cursor:crosshair;
   
 }
 
