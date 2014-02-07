@@ -1,4 +1,3 @@
-if($(window).width() > 870) {
 $(function(){
 
 	$("#stage").load('svg_russiandoll_interactive.svg',function(response){
@@ -6,14 +5,6 @@ $(function(){
 		$(this).addClass("svgLoaded");
 		
 		
-			});
+
+	});
 });
-}
-		 else {
-    $("#fallback").load('russiandoll_interactive.png',function(response){
-
-		$(this).addClass("img-responsive");
-	
-    		});
-}
-
