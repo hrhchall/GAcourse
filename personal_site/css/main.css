@@ -102,15 +102,11 @@ textarea {
 
 
 .fallback { 
-  display: none;
-  width: 908px;
-  height:607px;
-  background-image: url('../images/russiandoll_interactive.png'); 
+  width: auto;
+  height:auto;
   /* Make sure it's the same size as the SVG takes up */
 }
-.no-svg .fallback { 
-  background-image: url('../images/russiandoll_interactive.png'); 
-}
+
 .back-to-top {
     position: fixed;
     bottom: 2em;
