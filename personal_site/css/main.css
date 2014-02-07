@@ -896,7 +896,7 @@ animation-fill-mode:both;
   
 }
 
- @media only screen and (min-width: 1200px) { 
+ @media only screen and (min-width: 870px) { 
   #doll_section {
     display:none;
     visibility: hidden;
