@@ -414,6 +414,7 @@ h2 {
   text-transform;
   letter-spacing:.3em;
   text-transform: uppercase;
+  margin-top:32px;
 }
 
 #footer {
@@ -469,7 +470,7 @@ font-size:1.5em;
 
 .gridheading {
   color:white;
-  font-size: 4em;
+  font-size: 3em;
   text-align: center;
   padding-bottom:30px;
 }
