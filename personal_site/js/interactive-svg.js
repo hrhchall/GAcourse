@@ -10,7 +10,12 @@ $(function(){
 });
 }
 		 else {
-    $(".fallback").load();
-    console.log("fallback loaded")
+    $(".fallback").load('../images/russiandoll_interactive.png',function(response){
+
+		$(this).addClass("img-responsive");
+		);
+    console.log("fallback loaded");
+    		});
+});
 }
 
