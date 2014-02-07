@@ -173,9 +173,9 @@ textarea {
 .container_services {
   background-image: url('../images/pointer.png');
   background-repeat:no-repeat;
-  background-position-x:320px;
+  background-position-x:340px;
   background-position-y:172px;
-  background-position:320px 172px;
+  background-position:340px 172px;
 }
 
 .navbar-default {
@@ -335,6 +335,11 @@ h2 {
   font-size:2em;
   color:white;
   font-weight:500;
+}
+
+.welcome_text a {
+  color: white;
+  text-decoration:underline;
 }
 
 #findoutmore p a{
@@ -828,8 +833,8 @@ animation-fill-mode:both;
   .container_services {
     background-size:105px;
     background-position-x:330px;
-    background-position-y:237px;
-    background-position:330px 237px;
+    background-position-y:187px;
+    background-position:330px 187px;
   }
 
  
@@ -862,9 +867,9 @@ animation-fill-mode:both;
 
    .container_services {
     background-size:105px;
-    background-position-x:330px;
+    background-position-x:250px;
     background-position-y:207px;
-    background-position:330px 207px;
+    background-position:250px 207px;
   }
 
   .work_title {
