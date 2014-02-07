@@ -896,6 +896,14 @@ animation-fill-mode:both;
   
 }
 
+ @media only screen and (min-width: 1200px) { 
+  #doll_section {
+    display:none;
+    visibility: hidden;
+    overflow:hidden;
+  }
+  }
+
 @media only screen and (max-width: 767px) {
 .navbar-default .navbar-nav li a:hover {
   background-image: url('../images/bck_hover.jpg');
