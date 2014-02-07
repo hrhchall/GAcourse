@@ -105,6 +105,7 @@ textarea {
   display: none;
   width: 908px;
   height:607px;
+  background-image: url('../images/russiandoll_interactive.png'); 
   /* Make sure it's the same size as the SVG takes up */
 }
 .no-svg .fallback { 
