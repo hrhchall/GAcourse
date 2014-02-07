@@ -530,6 +530,10 @@ font-size:1.5em;
   border-color:#252525;
 }
 
+.work-opacity_hover a:hover {
+  cursor: crosshair;
+}
+
 .portfolio_imagestop {
   margin-bottom:30px;
 }
