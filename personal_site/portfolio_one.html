@@ -109,14 +109,21 @@
     <script src="js/bootstrap.min.js"></script>
      <script src="js/waypoints.min.js"></script>
      <script type="text/javascript">
+     if($(window).width() > 1200) {
     tiles = $("#skillshead, .headingfade, .header_line, .gridp").fadeTo(0, 0);
-
+    
     $(window).scroll(function(d,h) {
     tiles.each(function(i) {
         a = $(this).offset().top + $(this).height();
         b = $(window).scrollTop() + $(window).height();
         if (a < b) $(this).fadeTo(200,1);
     });
-});</script>
+});
+  }
+
+  else {
+    console.log('Less than 1200');
+}
+  </script>
   </body>
 </html>
