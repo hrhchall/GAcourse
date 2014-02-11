@@ -736,7 +736,10 @@ body {
   overflow-x:hidden;
 }
 
-
+  article,aside,details,figcaption,figure,
+    footer,header,hgroup,menu,nav,section { 
+            display:block;
+    }
 
 /* media queries */ 
 /* Tablet Layout: 768px.
