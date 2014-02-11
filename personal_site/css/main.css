@@ -392,6 +392,10 @@ h2 {
   display:block;
 }
 
+.quote_fade {
+  width:100%;
+}
+
 
 #quote_about {
   font-size:5em;
