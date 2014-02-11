@@ -729,6 +729,24 @@ legend {
 
 .plane {
   margin-top:60px;
+  display:inline-block;
+    zoom:1;
+
+}
+
+.rubix {
+  display:inline-block;
+    zoom:1;
+}
+
+.bricks {
+  display:inline-block;
+    zoom:1;
+}
+
+.bricks_folia {
+  display:inline-block;
+    zoom:1;
 }
 
 body {
@@ -994,14 +1012,10 @@ animation-fill-mode:both;
 
    #rubix {
     display:none;
-    display:inline-block;
-    zoom:1;
    }
 
    .bricks {
     display:none;
-    display:inline-block;
-  zoom:1;
    }
 
    .bricks_folia {
@@ -1010,8 +1024,6 @@ animation-fill-mode:both;
 
    .plane {
     display:none;
-    display:inline-block;
-  zoom:1;
    }
 
    .navbar-default .navbar-nav li a {
