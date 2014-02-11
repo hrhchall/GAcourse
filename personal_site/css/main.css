@@ -313,12 +313,10 @@ text-align:center; }
 }
 
 #home_text {
-  /*margin-top:50px;*/
+  display:inline-block;
+  zoom:1;
   text-align:center;
-  /*background-image: url('../images/pointer.png');
-  background-repeat:no-repeat;
-  background-position-x:3px;
-  background-position-y:330px;*/
+ 
 
 
 }
