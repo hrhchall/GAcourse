@@ -372,6 +372,8 @@ h2 {
 #bird {
   margin-top:80px;
   margin-bottom:80px;
+  display:inline-block;
+  zoom:1;
   -moz-animation-duration:3s;
   -webkit-animation-duration:3s;
   -moz-animation-name:slidein;
