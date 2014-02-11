@@ -5,8 +5,6 @@ $(function(){
 
 		$(this).addClass("svgLoaded");
 		
-		
-
 	});
 });
 }
