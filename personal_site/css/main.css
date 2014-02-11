@@ -280,6 +280,7 @@ li a span.bck_hover:hover {
 #equals {
 margin-top:30px;
 display:inline-block;
+zoom:1;
 padding:40px;
 -webkit-animation:wobble 5s ease-in-out infinite;
 -webkit-transform-origin:center bottom;
