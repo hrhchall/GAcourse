@@ -306,6 +306,8 @@ text-align:center; }
 #lefthome {
   /*margin-left:65px;*/
   margin-top:20px;
+  display:inline-block;
+  zoom:1;
 }
 
 #home_content {
@@ -961,10 +963,14 @@ animation-fill-mode:both;
 
    #rubix {
     display:none;
+    display:inline-block;
+    zoom:1;
    }
 
    .bricks {
     display:none;
+    display:inline-block;
+  zoom:1;
    }
 
    .bricks_folia {
@@ -973,6 +979,8 @@ animation-fill-mode:both;
 
    .plane {
     display:none;
+    display:inline-block;
+  zoom:1;
    }
 
    .navbar-default .navbar-nav li a {
