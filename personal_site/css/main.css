@@ -421,6 +421,10 @@ h2 {
   padding:40px;
 }
 
+.no-svg #stage {
+  background-image: url('../images/russiandoll_interactive.png');
+}
+
 #funfacts {
   margin-top:89px;
   font-size:8em;
