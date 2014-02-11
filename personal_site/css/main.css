@@ -374,10 +374,10 @@ h2 {
   margin-bottom:80px;
   display:inline-block;
   zoom:1;
-  -moz-animation-duration:3s;
+/*  -moz-animation-duration:3s;
   -webkit-animation-duration:3s;
   -moz-animation-name:slidein;
-  -webkit-animation-name:slidein;
+  -webkit-animation-name:slidein;*/
 }
 
 #quote_section {
@@ -511,7 +511,10 @@ font-size:1.2em;
     -o-animation-duration: 5s; 
     -o-animation-iteration-count: infinite;
     -o-animation-timing-function: linear;
-
+    -ms-animation-name: rotateX; 
+    -ms-animation-duration: 5s;
+    -ms-animation-iteration-count: infinite;
+    -ms--animation-timing-function: linear;
 }
 @-webkit-keyframes rotateX {
     from {-webkit-transform: rotate(0deg);}
@@ -524,6 +527,11 @@ font-size:1.2em;
 }
 
 @-o-keyframes rotateX {
+  from {-o-transform:rotate(0deg);}
+  from {-o-transform:rotate(360deg);}
+}
+
+@-ms-keyframes rotateX {
   from {-o-transform:rotate(0deg);}
   from {-o-transform:rotate(360deg);}
 }
@@ -620,12 +628,15 @@ span.imagetitle {
 
 -webkit-transition-duration: 0.2s;{
           -webkit-transition-property: color, background-color, opacity;
+          -webkit-transition-duration:0.4s;
           -moz-transition-duration: 0.4s;
           -moz-transition-property: color, background-color, opacity;
           -o-transition-duration: 0.4s;
           -o-transition-property: color, background-color, opacity;
           transition-duration: 0.4s;
           transition-property: color, background-color, opacity;
+          -ms-transition-property:color,background-color,opacity;
+          -ms-transition-duration:0.4s;
         }   
 .work-opacity_hover{
           -ms-transition: all 0.4s ease-in-out;
@@ -633,6 +644,7 @@ span.imagetitle {
           -moz-transition: all 0.4s ease-in-out;
           -o-transition: all 0.4s ease-in-out;
           transition: all 0.4s ease-in-out;
+          -ms-transition:all 0.4s ease-in-out;
         }
 
 #white_stretch {
@@ -751,6 +763,11 @@ body {
   0%   { opacity: 0; }
   100% { opacity: 1; }
 }
+
+@-ms-keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
  
 
 .fadein {
@@ -758,6 +775,7 @@ body {
   -moz-animation:   fade-in 1s ease-in both; /* Fx 5+ */
   -o-animation:      fade-in 1s ease-in both; /* Opera 12+ */
   animation:         fade-in 1s ease-in both; /* IE 10+ */
+  -ms-animation: fade-in 1s ease-in both; 
  /* -webkit-animation-name: fade-in;
   -moz-animation-name:   fade-in;
   -o-animation-name:   fade-in;   
@@ -789,6 +807,10 @@ body {
 @keyframes fadeInLeft{0%{
   opacity:0;transform:translateX(-100px)}
   100%{opacity:1;transform:translateX(0)}}
+
+  @-ms-keyframes fadeInLeft{
+  0%{opacity:0;-o-transform:translateX(-100px)}
+  100%{opacity:1;-o-transform:translateX(0)}}
 
  /* .fadeInLeft{
     -webkit-animation-name:fadeInLeft;
@@ -825,6 +847,10 @@ animation-delay:0s;
 -o-animation-fill-mode:both;
 animation-duration:1s;
 animation-fill-mode:both;
+-ms-animation-name:fadeInLeft;
+-ms-animation-delay:0s;
+-ms-animation-duration:1s;
+-ms-animation-fill-mode:both;
 }
 
 
