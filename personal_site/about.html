@@ -28,6 +28,13 @@
     <script type="text/javascript" src="//use.typekit.net/ayu8cus.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
      <script scr="js/modernizr.custom.js"></script>
+     <script>
+if(!Modernizr.svg) {
+    $('img[src*="svg"]').attr('src', function() {
+        return $(this).attr('src').replace('.svg', '.png');
+    });
+}
+</script>
     <!--[if lt IE 9]>  
   <script type="text/javascript">  
     document.createElement("header");  
