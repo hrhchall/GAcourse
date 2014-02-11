@@ -385,7 +385,8 @@ h2 {
 
 #quote_section {
   background-color:white;
-  width:100%;
+  max-width:100%;
+  display:block;
 }
 
 
