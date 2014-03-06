@@ -1,3 +1,10 @@
+<?php
+
+  $welcome_about="London-based freelance Web Designer and Front-end Web Developer. I build imaginative websites, designed to be totally unique, to make work stand out from the crowd";
+
+?>
+
+
 <!DOCTYPE html>
 <!--[if lt IE 8]><html class=" no-js lt-ie9 lt-ie8 lt-ie7" lang="en"><![endif]-->
 <!--[if IE 7]><html class=" no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
@@ -13,13 +20,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Holly Challenger | Front end web developer </title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/navbar.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/doll.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-    <script scr="js/respond.min.js"></script>
-    <script scr="js/respond.src.min.js"></script>
+    <link href="<?php bloginfo('template_directory');?>/css/bootstrap.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_directory');?>/css/navbar.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_directory');?>/css/doll.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_directory');?>/style.css" rel="stylesheet">
+    <script scr="<?php bloginfo('template_directory');?>/js/respond.min.js"></script>
+    <script scr="<?php bloginfo('template_directory');?>/js/respond.src.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,500italic,500,400italic,300italic,300,100' rel='stylesheet' type='text/css'> 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -27,7 +33,7 @@
     <![endif]-->
     <script type="text/javascript" src="//use.typekit.net/ayu8cus.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-     <script scr="js/modernizr.custom.js"></script>
+     <script scr="<?php bloginfo('template_directory');?>/js/modernizr.custom.js"></script>
      <script>
 if(!Modernizr.svg) {
     $('img[src*="svg"]').attr('src', function() {
@@ -48,7 +54,7 @@ if(!Modernizr.svg) {
   </script>  
 <![endif]--> 
 
-
+ 
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <![endif]-->
@@ -60,7 +66,7 @@ if(!Modernizr.svg) {
         <div class="container_about">
           <header class="clearfix">
             <div class="logo col-md-3 col-xs-12 pull-left" id="logo_ontop"> 
-              <a href="index.html"><img src="images/logo_whitetagline.png" id="logo"/> </a> <!-- <h1> Holly Challenger </h1> -->
+              <a href="index.html"><img src="<?php bloginfo('template_directory');?>/images/logo_whitetagline.png" id="logo"/> </a> <!-- <h1> Holly Challenger </h1> -->
             </div><!--closed col 3-->
             <div class="navbar navbar-default col-md-9 col-sm-12" id="about_nav" role="navigation">
               <div class="navbar-header">
@@ -73,11 +79,11 @@ if(!Modernizr.svg) {
               </div>
               <div class="navbar-collapse collapse" id="menu">
                 <ul class="nav navbar-nav">
-                  <li><a href="index.html"><span class="bck_hover"> </span>Home  </a></li>
-                  <li class="active_tab"><a href="about.html"><span class="bck_hover"> </span>About</a></li>
-                  <li><a href="services.html"><span class="bck_hover"> </span>Services</a></li>
-                  <li><a href="work.html"><span class="bck_hover"> </span>Portfolio</a></li>
-                  <li><a href="contact.html"><span class="bck_hover"> </span>Contact</a></li>
+                  <li><a href="<?php bloginfo('template_directory');?>/index.php"><span class="bck_hover"> </span>Home  </a></li>
+                  <li class="active_tab"><a href="<?php bloginfo('template_directory');?>/about.php"><span class="bck_hover"> </span>About</a></li>
+                  <li><a href="<?php bloginfo('template_directory');?>/services.php"><span class="bck_hover"> </span>Services</a></li>
+                  <li><a href="<?php bloginfo('template_directory');?>/work.php"><span class="bck_hover"> </span>Portfolio</a></li>
+                  <li><a href="<?php bloginfo('template_directory');?>/contact.php"><span class="bck_hover"> </span>Contact</a></li>
                 </ul>
               </div><!--nav-collapse -->
             </div> <!--nav-default -->
@@ -85,11 +91,16 @@ if(!Modernizr.svg) {
           <div id="home_content">
             <div class="row">
               <div class="col-md-4 col-sm-6 col-xs-3 fadeinleft" id="lefthome">
-                <img src="images/bird.png" class="img-responsive" alt="Responsive image" height="100" id="bird"/>
+                <img src="<?php bloginfo('template_directory');?>/images/bird.png" class="img-responsive" alt="Responsive image" height="100" id="bird"/>
               </div>
               <div class="col-md-8 col-xs-12 col-sm-6 fadein" id="home_text">
                 <h2>About me </h2>
-                  <p class="welcome_text" id="about_p">I'm a freelance web developer living in Brixton, South London. I design and code creative and responsive websites, which adapt to multiple devices. <br> A graduate of General Assembly, I am fluent in Front-end web languages, including HTML5, CSS3, Javascript and Jquery. <br>I am a published <a href="http://http://www.amazon.co.uk/Abused-No-More-Refugee-Asylum-seeking-ebook/dp/B00ESH9W0A"> author</a> on service-user involvement and co-production. This expertise means I enjoy working collaboratively with clients to co-produce websites that perfectly suit their needs.</p>
+                  <p class="welcome_text" id="about_p">I'm a freelance web developer living in Brixton, South London. 
+                    I design and code creative and responsive websites, which adapt to multiple devices. <br> 
+                    A graduate of General Assembly, I am fluent in Front-end web languages, including HTML5, CSS3, Javascript and Jquery. 
+                    <br>I am a published <a href="http://http://www.amazon.co.uk/Abused-No-More-Refugee-Asylum-seeking-ebook/dp/B00ESH9W0A"> author</a> 
+                    on service-user involvement and co-production. This expertise means I enjoy working collaboratively with clients to co-produce websites that 
+                    perfectly suit their needs.</p>
               </div>
             </div><!-- row -->
           </div> <!-- /home content -->
@@ -119,7 +130,7 @@ if(!Modernizr.svg) {
       </div><!-- row -->
     </div> <!--doll section -->
     <!--<![endif]-->
-    <a href="#" class="back-to-top"><img src="images/arrow_top3.png" height="40px"></a>
+    <a href="#" class="back-to-top"><img src="<?php bloginfo('template_directory');?>/images/arrow_top3.png" height="40px"></a>
       </div> <!-- /container -->
       </div> <!-- /wrap -->
     <div id="footer">
@@ -128,8 +139,8 @@ if(!Modernizr.svg) {
       </div>
     </div>
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/interactive-svg.js"></script>
+    <script src="<?php bloginfo('template_directory');?>/js/bootstrap.min.js"></script>
+    <script src="<?php bloginfo('template_directory');?>/js/interactive-svg.js"></script>
     <script type="text/javascript">
     if($(window).width() > 1200) {
     tiles = $("#funfacts, #footer").fadeTo(0, 0);

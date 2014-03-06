@@ -1,56 +1,11 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]><html class=" no-js lt-ie9 lt-ie8 lt-ie7" lang="en"><![endif]-->
-<!--[if IE 7]><html class=" no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if IE 8]><html class=" no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!-->
+<?php get_header();?>
 
-<html class="no-ie js no-touch csstransforms csstransforms3d csstransitions svg wf-brandongrotesque-n4-active wf-brandongrotesque-n7-active wf-chaparralpro-i4-active wf-chaparralpro-i7-active wf-chaparralpro-n4-active wf-chaparralpro-n7-active wf-active js flexbox no-touch rgba opacity cssanimations csstransforms csstransforms3d csstransitions fontface generatedcontent svg inlinesvg boxsizing cssvhunit cssremunit cssvmaxunit unicode cssvminunit cssvwunit js-ready datauri" lang="en">
-<!--<![endif]-->
-  <head> 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Holly Challenger | Front end web developer </title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/navbar.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-    <script scr="js/respond.min.js"></script>
-    <script scr="js/respond.src.min.js"></script>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500italic,500,400italic,300italic,300,100' rel='stylesheet' type='text/css'>
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-    <script type="text/javascript" src="//use.typekit.net/ayu8cus.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    <script scr="http://ajax.cdnjs.com/ajax/libs/modernizr/1.7/modernizr-1.7.min.js"></script>
- <!--[if lt IE 9]>  
-  <script type="text/javascript">  
-    document.createElement("header");  
-    document.createElement("footer");  
-    document.createElement("section");   
-    document.createElement("aside");  
-    document.createElement("nav");  
-    document.createElement("article");   
-    document.createElement("hgroup");   
-    document.createElement("time");  
-  </script>  
-<![endif]--> 
-
-  <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <![endif]-->
-  </head>
   <body id="work_body">
     <div id="wrap">
       <div class="container">
         <header class="clearfix">
           <div class="logo col-md-3 col-xs-12 pull-left" id="logo_ontop"> 
-            <a href="index.html"><img src="images/logo_whitetagline.png" id="logo"/> </a> <!-- <h1> Holly Challenger </h1> -->
+            <a href="index.html"><img src="<?php bloginfo('template_directory');?>/images/logo_whitetagline.png" id="logo"/> </a> <!-- <h1> Holly Challenger </h1> -->
           </div><!--closed col 4-->
           <div class="navbar navbar-default col-md-9 col-sm-12" id="work_nav" role="navigation">
             <div class="navbar-header">
@@ -63,11 +18,11 @@
             </div>
             <div class="navbar-collapse collapse" id="menu">
               <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="work.html">Portfolio</a></li>
-                <li class="active_tab"><a href="contact.html">Contact</a></li>
+                <li><a href="<?php bloginfo('template_directory');?>/index.html">Home</a></li>
+                <li><a href="<?php bloginfo('template_directory');?>/about.html">About</a></li>
+                <li><a href="<?php bloginfo('template_directory');?>/services.html">Services</a></li>
+                <li><a href="<?php bloginfo('template_directory');?>/work.html">Portfolio</a></li>
+                <li class="active_tab"><a href="<?php bloginfo('template_directory');?>/contact.html">Contact</a></li>
               </ul>
             </div><!--nav-collapse -->
           </div> <!--nav-default -->
@@ -75,7 +30,7 @@
         <div id="contacts">
           <div class="row">
             <div class="col-md-4 col-sm-4 col-xs-3 fadeinleft plane">
-              <img src="images/paper_plane.png"class="img-responsive" alt="Responsive image"/>
+              <img src="<?php bloginfo('template_directory');?>/images/paper_plane.png"class="img-responsive" alt="Responsive image"/>
             </div>
             <div class="col-md-8 col-xs-12 col-sm-8 fadein" id="home_text">
               <h2>I'd like to hear from you</h2>
@@ -116,13 +71,15 @@
       </div>
     </div>
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jqbootstrapvalidation.js"></script>
+    <script src="<?php bloginfo('template_directory');?>/js/bootstrap.min.js"></script>
+    <script src="<?php bloginfo('template_directory');?>/js/jqbootstrapvalidation.js"></script>
+    <script scr="<?php bloginfo('template_directory');?>/js/respond.min.js"></script>
+    <script scr="<?php bloginfo('template_directory');?>/js/respond.src.min.js"></script>
     <script>
     $(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
     </script>
-    <script src="js/contact_me.js"></script>
-     <script src="js/waypoints.min.js"></script>
+    <script src="<?php bloginfo('template_directory');?>/js/contact_me.js"></script>
+     <script src="<?php bloginfo('template_directory');?>/js/waypoints.min.js"></script>
      <script type="text/javascript">
     tiles = $("#skillshead, .headingfade, .header_line, .gridp").fadeTo(0, 0);
 
@@ -133,5 +90,4 @@
         if (a < b) $(this).fadeTo(200,1);
     });
 });</script>
-  </body>
-</html>
+  <?php get_footer(); ?>
