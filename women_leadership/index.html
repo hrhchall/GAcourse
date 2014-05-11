@@ -117,15 +117,15 @@
       <section id="tea">
          <h3>Want to <br>make more <br>than the tea?
         </h3>
-        <img src="images/tea.JPG">
+        <img src="images/tea.jpg" class="loaded-image">
        
       </section>
       <section id="about_section">
         <div class="container">
           <div class="row" id="section_about">
             <div class="col-md-2 col-sm-2  col-xs-2" id="left_pane"> 
-              <img class="levitation2" src="images/flowerpart_1.jpg" height='250px' id="flower_left"/>
-              <img class="levitation" src="images/flowerpart_3.jpg" height='200px' id="flower_leftbottom"/>
+              <img class="levitation2" src="images/flowerpart_1.jpg" height='250px' id="flower_left" class="loaded-image"/>
+              <img class="levitation" src="images/flowerpart_3.jpg" height='200px' id="flower_leftbottom" class="loaded-image"/>
             </div><!-- close col2-->
             <div class="col-md-8">
               <div class="title" >
@@ -230,7 +230,7 @@
 <section id="deer">
          <h3><span id="example">Deer</span> to <br>lead <br>
         </h3>
-        <img src="images/deer.jpg">
+        <img src="images/deer.jpg" class="loaded-image">
       </section>
       <section id="team">
         <div class="container">
@@ -420,5 +420,19 @@ setInterval(changeText, 900);
 
 </script>
 
+<script src="js/jquery.loadie.min.js"></script>
+<script>
+  $(function() {
+    var totalImages = $(".loaded-image").size();
+    var imagesLoaded = 0;
+    $('body').loadie();
+    $(".loaded-image").bind("load", function(){
+      $(this).show();
+
+      imagesLoaded++;
+      $('body').loadie(imagesLoaded / totalImages);
+    });
+  })
+  </script>
   </body>
 </html>
