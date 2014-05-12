@@ -55,8 +55,9 @@
 var s = skrollr.init({
     forceHeight: false
 });
- 
+ $(document).ready(function(){
 // Refresh Skrollr after resizing our sections
 s.refresh($('.homeSlide'));
 
 // Init Skrollr
+});

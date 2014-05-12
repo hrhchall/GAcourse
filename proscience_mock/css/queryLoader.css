@@ -1,0 +1,10 @@
+.QOverlay {
+	background-color: white;
+	z-index: 10000;
+}
+
+.QLoader {
+	background-color: #CCCCCC;
+	height: 1px;
+	z-index: 10000;
+}
