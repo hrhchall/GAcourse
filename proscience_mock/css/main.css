@@ -187,6 +187,10 @@ body {
   border-top:3px solid #ebebeb;
 }
 
+#buttons_footer ul {
+    margin-top:-40px;
+}
+
 .wrap {
     overflow: hidden;
     /* we don't want the pseudo-elements sticking out */
