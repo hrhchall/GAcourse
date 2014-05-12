@@ -5,7 +5,7 @@
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
-
+ 
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -1284,7 +1284,7 @@ transform: scale(1, 1);
 }
 
 #impact_top {
-    background:url('../images/impact_chalkboard.JPG');
+    background:url('../images/impact_chalkboard.jpg');
     background-size: cover;
     width:100%;
     height:450px;
@@ -1294,7 +1294,7 @@ transform: scale(1, 1);
 
 
 #blog_top {
-    background:url('../images/blog_chalkboard.JPG');
+    background:url('../images/blog_chalkboard.jpg');
     background-size: cover;
     width:100%;
     height:280px;
@@ -1303,7 +1303,7 @@ transform: scale(1, 1);
 }
 
 #involved_top {
-    background:url('../images/involved_chalkboard.JPG');
+    background:url('../images/involved_chalkboard.jpg');
     background-size: cover;
     width:100%;
     height:380px;
