@@ -17,6 +17,7 @@
       <![endif]-->
       <script type="text/javascript" src="//use.typekit.net/fzf4ekp.js"></script>
       <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
     </head>
     <body>
       <div id="wrap">
@@ -117,7 +118,7 @@
       <section id="tea">
          <h3>Want to <br>make more <br>than the tea?
         </h3>
-        <img src="images/tea.jpg" class="loaded-image">
+        <img src="images/tea.JPG" class="loaded-image">
        
       </section>
       <section id="about_section">
@@ -420,19 +421,6 @@ setInterval(changeText, 900);
 
 </script>
 
-<script src="js/jquery.loadie.min.js"></script>
-<script>
-  $(function() {
-    var totalImages = $(".loaded-image").size();
-    var imagesLoaded = 0;
-    $('body').loadie();
-    $(".loaded-image").bind("load", function(){
-      $(this).show();
 
-      imagesLoaded++;
-      $('body').loadie(imagesLoaded / totalImages);
-    });
-  })
-  </script>
   </body>
 </html>

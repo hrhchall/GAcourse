@@ -60,7 +60,9 @@ h1 {
 h1 img {
 position:absolute;
 top:100px;
+left:659px;
 }
+
 .home_title {
 	margin-top:100px;
 	border-top:3px solid #404040;
@@ -345,7 +347,9 @@ transform: scale(1, 1);
 	color:white;
 }
 
+.flexslider .slides > li:first-child {display: block; -webkit-backface-visibility: visible;}
 
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;}
 
 .flex-direction-nav {
 	display:none;
@@ -826,10 +830,16 @@ transform: scale(1, 1);
 
 .levitation {
     -webkit-animation:2.5s ease-out normal none infinite levitate;
+    -moz-animation:2.5s ease-out normal none infinite levitate;
+    -o-animation:2.5s ease-out normal none infinite levitate;
+    animation:2.5s ease-out normal none infinite levitate;
 }
 
 .levitation2 {
     -webkit-animation:3.5s ease-out normal none infinite levitate;
+    -moz-animation:3.5s ease-out normal none infinite levitate;
+    -o-animation:3.5s ease-out normal none infinite levitate;
+    animation:3.5s ease-out normal none infinite levitate;
 }
 
 @-webkit-keyframes levitate {
@@ -884,6 +894,7 @@ transform: scale(1, 1);
 
 	h1 img {
 		top:67px;
+		left:519px;
 	}
 
 	#tea h3 {
@@ -922,6 +933,18 @@ transform: scale(1, 1);
 	}
 }
 
+@media only screen and (max-width: 990px) { 
+
+h1 img {
+	left:568px;
+}
+}
+
+
+
+
+
+
 @media only screen and (max-width: 900px) {
 
 #deer h3 {
@@ -954,6 +977,10 @@ transform: scale(1, 1);
 		top:31px;
 	} 
 
+	h1 img {
+		left:550px;
+	}
+
 
  }
 
@@ -969,6 +996,11 @@ transform: scale(1, 1);
 	#deer h3 {
 		font-size: 7em;
 	} 
+
+	h1 img {
+		left:525px;
+	}
+
 }
 
 @media only screen and (max-width: 650px) { 
@@ -981,7 +1013,9 @@ transform: scale(1, 1);
 		font-size: 6em;
 		left:180px;
 	} 
-
+h1 img {
+		left:505px;
+	}
 }
 
 @media only screen and (max-width: 630px) {
@@ -990,8 +1024,9 @@ transform: scale(1, 1);
 	}
 
 	h1 img {
-		top:40px;
+		top:52px;
 		height:38px;
+		left:445px;
 	}
 
 	#down_arrow {
@@ -1010,6 +1045,13 @@ transform: scale(1, 1);
 	}
 
 	}
+@media only screen and (max-width: 560px) {
+
+	h1 img {
+		
+		left:413px;
+	}
+}
 
 	@media only screen and (max-width: 530px) {
 	h1 {
@@ -1018,6 +1060,7 @@ transform: scale(1, 1);
 
 	h1 img {
 		top:37px;
+		left:370px;
 	}
 
 	#down_arrow {
@@ -1048,7 +1091,19 @@ transform: scale(1, 1);
 		.name {
 		padding-left:10px;
 	}
+
+	h1 img {
+		left:354px;
 	}
+	}
+
+@media only screen and (max-width: 474px) { 
+
+	h1 img {
+		left:340px;
+	}
+
+		}
 
 	@media only screen and (max-width: 450px) {
 	h1 {
@@ -1058,6 +1113,7 @@ transform: scale(1, 1);
 	h1 img {
 		top:33px;
 		height:33px;
+		left:306px;
 	}
 
 	#down_arrow {
@@ -1104,6 +1160,10 @@ transform: scale(1, 1);
 	.btn {
 		margin-left: -8%;
 	}
+
+	h1 img {
+		left:286px;
+	}
 	}
 
 	@media only screen and (max-width: 400px) {
@@ -1114,6 +1174,12 @@ transform: scale(1, 1);
 	}
 	}
 
+	@media only screen and (max-width: 395px) {
+	
+	h1 img {
+		left:276px;
+	}
+	}
 	@media only screen and (max-width: 377px) {
 	h1 {
 		font-size:4em;
@@ -1122,6 +1188,7 @@ transform: scale(1, 1);
 	h1 img {
 		top:27px;
 		height:25px;
+		left:247px;
 	}
 	#flower_title {
 		font-size: 3em;
@@ -1145,8 +1212,18 @@ transform: scale(1, 1);
 		font-size: 3em;
 	}
 
+	h1 img {
+		left:232px;
 	}
 
+	}
+
+	@media only screen and (max-width: 335px) {
+		h1 img {
+			left:222px;
+		}
+
+	}
 	@media only screen and (max-width: 320px) {
 	h1 {
 		font-size:3em;
@@ -1155,6 +1232,7 @@ transform: scale(1, 1);
 	h1 img {
 		top:18px;
 		height:22px;
+		left:193px;
 	}
 
 	#tea h3 {
@@ -1184,6 +1262,10 @@ transform: scale(1, 1);
 
 	#flower_title {
 		font-size: 2em;
+	}
+
+	h1 img {
+		left:185px;
 	}
 	}
 
