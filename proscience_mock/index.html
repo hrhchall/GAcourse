@@ -46,10 +46,7 @@ function imgLoaded(img) {
 document.getElementsByTagName('body')[0].className+=' has-js';
 //]]>
 </script>
-
-
-
-  <header>
+<header>
 
     <div class="navbar navbar-default navbar-fixed-top cl-effect-1" role="navigation">
       <div class="container">
@@ -68,19 +65,11 @@ document.getElementsByTagName('body')[0].className+=' has-js';
             <li><a href="impact.html">Our impact</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="involved.html">Get involved</a></li>
-            <!-- <li class="dropdown">
-            <a href="involved.html" class="dropdown-toggle" data-toggle="dropdown">Get involved <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="involved.html #undergraduates">Volunteer</a></li>
-                <li><a href="involved.html #supporters">Support us</a></li>
-                <li><a href="involved.html #teachers">Sign up your school</a></a>
-      
-          </ul> -->
+          </ul>
         </div><!--/.nav-collapse -->
       </div><!--/.nav-default -->
     </div><!--/.container -->
 </header>
-  
 <div class="image_container">
   <div class="scroll"data-0="opacity: 1" data-270="opacity: 0">
     <img src="images/arrow_bottom.png" alt="down arrow"/>
@@ -93,8 +82,8 @@ document.getElementsByTagName('body')[0].className+=' has-js';
 
     <div id="slide-1" class="homeSlide">
       <div class="scrolling_content scrolling_content_1" data-center="background-position: 50% 0px;"
-        data-top-bottom="background-position: 60% -100px;"
-        data-bottom-top="background-position: 60% 100px;"> 
+        data-top-bottom="background-position: 50% -100px;"
+        data-bottom-top="background-position: 50% 100px;"> 
       </div><!-- scrolling content -->
       <div class="slide_content scrolling_content" data-0="opacity: 1" data-430="opacity: 0">
         <div class="cycle-caption">Inspiring school pupils <br>about the STEM subjects <br> 
@@ -135,29 +124,36 @@ document.getElementsByTagName('body')[0].className+=' has-js';
   <section class="col-4 ss-style-triangles" id="home_first">
     <div class="container">
       <div class="row">
-      <div class="col-md-6">
-        <img src="images/home_diagram.png" height='300px' class="img-responsive"/>
-      </div>
-      <div class="col-md-6">
-        <h2>What we do</h2>
-        <p>Galaxies a still more glorious dawn awaits shores of the cosmic ocean bits of moving fluff the only home we've ever known finite but unbounded colonies astonishment laws of physics a very small stage in a vast cosmic arena brain is the seed of intelligence realm of the galaxies Apollonius of Perga rogue intelligent beings courage of our questions made in the interiors </p>
-        <button onclick="location.href='about.html'"class="btn-3 btn btn-3a icon-arrow-right">More about us<span class="glyphicon glyphicon-arrow-right"></span> 
-        </button>
-      </div><!-- colmd6 -->
-    </div><!-- row -->
+        <div class="col-md-6 col-sm-6">
+          <h2>What we do</h2>
+          <p>Pro Science empowers exceptional STEM undergraduates to champion the sciences in schools, focussing on schools in socio-economically disadvantaged areas.<br><br> <span>Our Pro Science undergraduates:</span> </p>
+          <ol id="expectations">
+            <li><span><img src="images/lightbulb.png"/></span>Act as STEM role models who deliver novel STEM activities for pupils on a frequent, sustained basis throughout the school year;</li>
+            <li><span><img src="images/lightbulb.png"/></span>Support teachers to deliver curriculum objectives and meet their professional development requirements;</li>
+            <li><span><img src="images/lightbulb.png"/></span>Build and strengthen industry links that inform the content of our activities and which connect employers to their local communities; </li>
+          </ol>
+          <button onclick="location.href='involved.html'"class="btn-3 btn btn-3a icon-arrow-right">More about us<span class="glyphicon glyphicon-arrow-right"></span>
+          </button>
+        </div>
+        <div class="col-md-6 col-sm-5">
+          <img src="images/home_diagram.png" height='300px'class="img-responsive"/>
+        </div>
+      </div><!-- row -->
     </div><!-- container -->
   </section>
   <section id="second_section"class="color ss-style-triangles col-3">
     <div class="container">
-      <div class="col-md-6">
-        <img src="images/home_diagram.png" height='300px'class="img-responsive"/>
+       <div class="col-md-6 col-sm-5">
+        <img src="images/testtubes.png" height='300px' class="img-responsive"/>
       </div>
-      <div class="col-md-6">
-        <h2>Our solution</h2>
-        <p>Galaxies a still more glorious dawn awaits shores of the cosmic ocean bits of moving fluff the only home we've ever known finite but unbounded colonies astonishment laws of physics a very small stage in a vast cosmic arena brain is the seed of intelligence realm of the galaxies Apollonius of Perga rogue intelligent beings courage of our questions made in the interiors</p>
-        <button onclick="location.href='involved.html'"class="btn-3 btn btn-3a icon-arrow-right">Support us<span class="glyphicon glyphicon-arrow-right"></span>
+      
+      <div class="col-md-6 col-sm-6">
+       <h2>Why we exist</h2>
+        <p>There is a significant shortage of people with STEM skills in the UK, which poses a real threat to the country’s future growth and prosperity. <br><br>While there are many causes of this skills gap, one factor is that too many young people are not succeeding in or aspiring towards continuing with these subjects up to A-level/ Advanced Higher and beyond. <br><br>This problem is especially prominent in schools in socio-economically deprived areas. </p>
+        <button onclick="location.href='about.html'"class="btn-3 btn btn-3a icon-arrow-right">Support our work<span class="glyphicon glyphicon-arrow-right"></span> 
         </button>
-      </div>
+      </div><!-- colmd6 -->
+     
     </div>
   </section>
 
@@ -224,52 +220,36 @@ document.getElementsByTagName('body')[0].className+=' has-js';
     <div id="footer" >
         <div class="container">
           <div class="row">
-          <div class="col-md-4">
-            <div class="footer_list" id="site_map">
-              <h3>Site map</h3>
-                <div>
-                  <ul>
-                    <li ><a href="about.html">About us</a></li>
-                    <li ><a href="impact.html">Our impact</a></li>
-                    <li ><a href="blog.html">Blog</a></li>
-                    <li ><a href="involved.html">Get involved</a></li>
-                  </ul>
-                </div>  <!-- closed socialmedia -->
-
-              </div><!-- footer list -->
-            </div><!-- closed colmd6 -->
-            <div class="col-md-4" id="buttons_footer">
+            <div class="col-md-6 col-sm-6 col-xs-6" id="buttons_footer">
               <h3>Get involved</h3>
-            <ul>
-                <li>
-              <button onclick="location.href='involved.html #undergraduates'"class="btn-5 btn icon-arrow-right">Volunteer
-              </button>
-            </li>
-            <li>
-              <button onclick="location.href='involved.html #teachers'"class="btn-5 btn icon-arrow-right">Sign up your school
-              </button>
-            </li>
-            <li>
-              <button onclick="location.href='involved.html #supporters'"class="btn-5 btn icon-arrow-right">Support us
-              </button>
-            </li>
-            </ul>
-             
+                <ul>
+                  <li>
+                    <button onclick="location.href='involved.html #undergraduates'"class="btn-5 btn icon-arrow-right">Volunteer
+                    </button>
+                  </li>
+                  <li>
+                  <button onclick="location.href='involved.html #teachers'"class="btn-5 btn icon-arrow-right">Sign up your school
+                  </button>
+                  </li>
+                  <li>
+                  <button onclick="location.href='involved.html #supporters'"class="btn-5 btn icon-arrow-right">Support us
+                  </button>
+                  </li>
+              </ul>
             </div><!-- closed colmd6 -->
-
-            <div class="col-md-4">
-            <div class="footer_list">
-              <h3>Contact Us</h3>
-              <p>hello@proscience.org.uk <br> 0769594 999</p>
+            <div class="col-md-6 col-sm-6 col-xs-6" id="contact_footer">
+              <div class="footer_list">
+                <h3>Contact Us</h3>
+                <p>hello@proscience.org.uk <br> 0769594 999</p>
                 <div id="socialmedia">
                   <ul>
-                    <li class="twitter"><a href="#">Twitter</a></li>
-                    <li class="rss"><a href="#">Facebook</a></li>
-                    <li class="linkedin"><a href="#">LinkedIn</a></li>
+                    <li class="twitter"><a href="#"></a></li>
+                    <li class="rss"><a href="#"></a></li>
+                    <li class="linkedin"><a href="#"></a></li>
                   </ul>
                 </div>  <!-- closed socialmedia -->
               </div><!-- footer list -->
-            </div><!-- closed colmd6 -->
+            </div><!-- closed colmd6 --> 
           </div>
             <div class="row">
               <div class="col-md-4">

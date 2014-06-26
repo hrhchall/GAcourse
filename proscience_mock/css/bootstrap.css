@@ -4478,8 +4478,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;
-   background-color: #435a6b;
-    border-color: #435a6b;
+  /* background-color: #435a6b;
+    border-color: #435a6b;*/
+    background-color:#0A5774;
+    border-color:#0A5774;
 }
 
 .navbar-fixed-bottom {
