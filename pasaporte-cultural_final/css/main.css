@@ -145,6 +145,11 @@ html, body {
     font-size: 0.7em;
     color:#05B8CC;
     font-weight: 600;
+    font-family:"bree", "san-serif";
+}
+
+body {
+  font-family:"bree", "san-serif";
 }
 
 .cycle-caption a {
