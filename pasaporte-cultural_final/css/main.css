@@ -14,7 +14,7 @@ html, body {
   /* Negative indent footer by its height */
   margin: 0 auto -60px;
   /* Pad bottom by footer height */
-  /*padding: 0 0 60px;*/
+  /*padding: 0 0 60px;*/ 
 } 
 
 .container-fluid {
@@ -130,18 +130,29 @@ html, body {
     z-index:1;
     padding:5px;
     font-size: 4em;
+    font-weight: 600;
     text-align: center;
     margin-bottom: 15%;
     letter-spacing:2px;
     color:white;
     font-family: "bree", "san-serif";
-    text-shadow: 6px 10px 3px rgba(0,0,0,1),
-             6px 8px 13px rgba(0,0,0,1),
+    text-shadow: 6px 10px 13px rgba(0,0,0,1),
+             6px 18px 13px rgba(0,0,0,1),
              6px 18px 23px rgba(0,0,0,1);
 }
 
 .cycle-caption span {
-    font-size: 0.4em;
+    font-size: 0.7em;
+    color:#05B8CC;
+    font-weight: 600;
+}
+
+.cycle-caption a {
+  color:#05B8CC;
+}
+
+.cycle-caption a:hover {
+  text-decoration: none;
 }
 
 .scrolling_content_1 {
@@ -149,7 +160,7 @@ html, body {
 }
 
 .scrolling_content_2 {
-    background:url('../images/columbia_sign.JPG');
+    background:url('../images/columbia2.JPG');
 }
 
 
@@ -174,6 +185,11 @@ html, body {
 
 #boxes {
     position: relative;
+}
+
+#boxes p {
+  font-size: 1.1em;
+  line-height: 1.4em;
 }
 
 #boxes ul {
@@ -242,7 +258,11 @@ font-family:"bree", "san-serif";
     margin-top:30px;
     float:left;
     margin-left:30px;
-    margin-bottom:60px;
+    box-shadow: 0 1px 1px #ddd;
+}
+
+.article a {
+  text-decoration: none;
 }
 
 .article_tweet {
@@ -355,6 +375,7 @@ footer p {
     padding-top:30px;
     margin-left:90px;
     margin-bottom:-32px;
+    font-family:"bree", "san-serif"; 
 }
 
 #about_top {
@@ -362,6 +383,58 @@ footer p {
     background-size:cover;
     height:200px;
     margin-top:136px;
+}
+
+#blog_top {
+    background:transparent url("../images/columbia1.JPG") no-repeat center center;
+    background-size:cover;
+    height:200px;
+    margin-top:136px;
+}
+
+#post_top {
+    background:#F8DF22;
+    background-size:cover;
+    height:200px;
+    margin-top:136px;
+}
+
+#what_top {
+  background:transparent url("../images/workshop_blue.JPG") no-repeat center center;
+    background-size:cover;
+    height:200px;
+    margin-top:136px;
+}
+
+#join_top {
+  background:transparent url("../images/workshop2_pink.JPG") no-repeat center center;
+    background-size:cover;
+    height:200px;
+    margin-top:136px;
+}
+
+#blog_top h1 {
+    font-size:6em;
+    font-family:"bree", "san-serif";
+    text-align: center;
+    color:white;
+    padding-top:60px;
+     text-shadow: 6px 10px 3px rgba(0,0,0,1),
+             6px 8px 13px rgba(0,0,0,1),
+             6px 18px 23px rgba(0,0,0,1);
+             font-weight:600;
+}
+
+#post_top h1 {
+    font-size:6em;
+    font-family:"bree", "san-serif";
+    text-align: center;
+    color:white;
+    padding-top:60px;
+     text-shadow: 6px 10px 3px rgba(0,0,0,1),
+             6px 8px 13px rgba(0,0,0,1),
+             6px 18px 23px rgba(0,0,0,1);
+             font-weight:600;
 }
 
 #about_top h1 {
@@ -373,9 +446,56 @@ footer p {
      text-shadow: 6px 10px 3px rgba(0,0,0,1),
              6px 8px 13px rgba(0,0,0,1),
              6px 18px 23px rgba(0,0,0,1);
+    font-weight:600;
+}
+
+#join_top h1 {
+    font-size:6em;
+    font-family:"bree", "san-serif";
+    text-align: center;
+    color:white;
+    padding-top:60px;
+     text-shadow: 6px 10px 3px rgba(0,0,0,1),
+             6px 8px 13px rgba(0,0,0,1),
+             6px 18px 23px rgba(0,0,0,1);
+    font-weight:600;
+}
+
+#what_top h1 {
+    font-size:6em;
+    font-family:"bree", "san-serif";
+    text-align: center;
+    color:white;
+    padding-top:60px;
+     text-shadow: 6px 10px 3px rgba(0,0,0,1),
+             6px 8px 13px rgba(0,0,0,1),
+             6px 18px 23px rgba(0,0,0,1);
+    font-weight:600;
 }
 
 #about_content {
+    background: #f3f3f3;
+    padding:40px 8.25% 40px;
+    font-family:"bree", "san-serif";
+}
+
+#post_content {
+    background: #f3f3f3;
+    padding:40px 8.25% 40px;
+    font-family:"bree", "san-serif";
+}
+
+#post_content p {
+  font-size:1.1em;
+}
+
+#blog_content {
+    background: #f3f3f3;
+    padding:40px 8.25% 40px;
+    font-family:"bree", "san-serif";
+}
+
+#what_content {
     background: #f3f3f3;
     padding:40px 8.25% 40px;
     font-family:"bree", "san-serif";
@@ -385,10 +505,44 @@ footer p {
     font-family:"bree", "san-serif";
 }
 
+#what_content h3, h4 {
+    font-family:"bree", "san-serif";
+}
+
+#what_content h4 {
+    font-size: 1.5em;
+
+}
+
+#what_content li {
+  font-size: 1.1em;
+}
+
+#what_content p {
+  font-size: 1.1em;
+}
+
 #about_content blockquote {
     color: #FF134B;
     font-size:1.6em;
     border-left:none;
+}
+
+#post_content blockquote {
+    color: #FF134B;
+    font-size:1.6em;
+    border-left:none;
+}
+
+.fa-quote-left  {
+  color: #FF134B;
+    font-size:1.8em;
+    border-left:none;
+}
+
+#news a {
+  text-decoration: none;
+  color:#5a5a5c;
 }
 
 #about_content .nav .nav-tabs li {
@@ -585,8 +739,66 @@ a.img_wrap {
     margin-left:39%;
 }
 
+.title {
+  color:#FF134B;
+  font-size: 1.2em;}
 
+#team h4 {
+font-family:"bree", "san-serif";
+  color:#FF134B;
+}
 
+#team h5 {
+font-family:"bree", "san-serif";
+  color:#05B8CC;
+  font-size: 1.2em;
+}
+
+#team p {
+  font-size: 1.1em;
+  font-family:"bree", "san-serif";
+}
+
+.form-control {
+  width:50%;
+}
+
+h5 {
+  font-family:"bree", "san-serif";
+}
+
+.btn-6 {
+  margin-top:0px;
+}
+
+h2 {
+ font-family:"bree", "san-serif"; 
+}
+
+.contact {
+  border-top:1px solid #e5e5e5;
+  border-bottom:1px solid #e5e5e5;
+  padding:16px 0px;
+  min-height:60px;
+  position:relative;
+  padding-bottom:75px;
+}
+
+.contact img {
+  border-radius: 150px;
+  float:left;
+}
+
+.contact a {
+  padding-left:5px;
+}
+
+.fa-paper-plane{
+  margin-top:15px;
+  padding-right:15px;
+  padding-bottom:15px;
+
+}
 
 
 
