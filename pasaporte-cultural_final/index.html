@@ -25,6 +25,27 @@
 
 <script src="//use.typekit.net/iyw6vfa.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
+
+
+<script type="text/javascript">
+$(window).load(function() {
+  $(".loader").fadeOut("slow");
+})
+</script>
+<script> 
+function imgLoaded(img) {
+  var imgWrapper = img.parentNode.parentNode;
+  imgWrapper.className += imgWrapper .className ? 'loaded': 'loaded';
+};
+
+</script>
+</head>
+<body>
+  <script type="text/javascript">
+//<![CDATA[
+document.getElementsByTagName('body')[0].className+=' has-js';
+//]]>
+</script>
     </head>
     <body>
       <div id="wrap"> 
@@ -37,7 +58,7 @@
               <div class="col-md-2">
           <!-- <div id="centre"> -->
           <a class="navbar-brand" href="index.html">
-              <img src="images/logo_nowaves.png" height="100px">
+              <img src="images/logo_slogan_blue.png" height="100px">
             </a>
           </div>
           <div class="col-md-6 col-md-offset-4">
@@ -201,6 +222,13 @@
 </section>
 <footer>
   <p>&copy Pasaporte Cultural 2014 </p> 
+  <div class="footer_icons">
+    <ul>
+      <li><a href="https://www.facebook.com/pages/Pasaporte-Cultural/485898001552981?notif_t=fbpage_fan_invite"> <i class="fa fa-facebook-square fa-3x"></i></a></li>
+      <li> <a href="#"><i class="fa fa-youtube-square fa-3x"></i></a></li>
+      <li><a href="https://twitter.com/PasaporteC"><i class="fa fa-twitter fa-3x"></i></a></li>
+    </ul>
+  </div>
 </footer>
 </div><!-- wrap -->
 
@@ -210,7 +238,14 @@
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="http://malsup.github.com/jquery.cycle2.js"></script>
-   
+      <script src="js/plugins.js"></script>
+      <script type="text/javascript" src="js/jquery.preload.min.js"></script>
+      <script type="text/javascript" charset="utf-8">
+      
+        $.preload( 'images/columbia2.JPG'
+      );
+      
+    </script>
   <script src="js/jquery.flexslider-min.js"></script>
       <script type="text/javascript">
         $(window).load(function(){

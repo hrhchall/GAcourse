@@ -37,7 +37,7 @@
               <div class="col-md-2">
           <!-- <div id="centre"> -->
           <a class="navbar-brand" href="index.html">
-              <img src="images/logo_nowaves.png" height="100px">
+              <img src="images/logo_slogan_blue.png" height="100px">
             </a>
           </div>
           <div class="col-md-6 col-md-offset-4">
@@ -74,6 +74,7 @@
   <ul class="nav nav-tabs">
     <li class="active"><a href="#vision" data-toggle="tab">Our school workshops</a></li>
     <li><a href="#team" data-toggle="tab"> What makes us different</a></li>
+    <li><a href="#testimonials" data-toggle="tab">Testimonials</a></li>
     <li><a href="#story" data-toggle="tab">Book a workshop</a></li>
   </ul>
   <div class="tab-content clearfix">
@@ -120,12 +121,12 @@
       </div>
     </div>
 
-<div class="tab-pane" id="team">
+<div class="tab-pane different" id="team">
   <h3>What makes us different</h3>
   <div class="row">
   <div class="col-md-6">
   
-  <h4>Contextualised learning</h4>
+  <h4><i class="fa fa-globe fa-2x"></i>Contextualised learning</h4>
   <h5>Native Speakers</h5>
   <p>Our workshops are led by musicians from Spanish speaking countries.</p>
   <h5>100% Target language</h5>
@@ -134,7 +135,7 @@
   <p>Spending a sustained time with people from another culture will increase cultural sensitivity and global citizenship. Students will be encouraged to compare traditions and customs of the UK with Colombia, including new vocabulary, customs and traditions.</p>
   <h5>University and careers</h5>
   <p>One workshop will include a visit from language graduates who will share with students what it's like to learn a language at university and how it can benefit you in the future.</p>
-  <h4>Engagement</h4>
+  <h4><i class="fa fa-key fa-2x"></i>Engagement</h4>
   <h5>A new way-in</h5>
   <p>Whilst some students may be turned off from learning a language in a classroom, using music is an an accessible medium for those hard to reach students, who simply need to experience language in a different context.Sessions are interactive and fast-paced and use a mixture of song, rhythm and movement to keep students engaged at all times.</p>
   <h5>Learn by doing – language in context</h5>
@@ -142,7 +143,7 @@
   using music made it easier to learn Spanish.)</p>
   </div>
   <div class="col-md-6">
-  <h4>Attainment</h4>
+  <h4><i class="fa fa-graduation-cap fa-2x"></i>Attainment</h4>
   <h5>Relevant curriculum</h5>
   <p>All workshops use structures and topics from the Key Stage 3* curriculum which reinforce familiar structures whilst introducing new vocabulary. Pupils will practice using all four skills of speaking and listening (communicating with facilitators and singing), reading (lyrics and texts) and writing (compositions). Work will directly feed into KS3 assessments and will be a perfect building block for the GCSE controlled assessment. *Key Stage 2 and 4 also available. </p>
   <h5>Academic Rigour</h5>
@@ -151,7 +152,7 @@
   <p>At Pasaporte Cultural we believe that in order to counteract the low-provision in MFL and have a significant impact on 
   attainment that workshops need to happen regularly and in addition to normal school time. This is why our six-week 
   programme takes place after school and over a whole half term.</p>
-  <h4>Personal Growth</h4>
+  <h4><i class="fa fa-rocket fa-2x"></i>Personal Growth</h4>
   <h5>Social SKills</h5>
   <p>Through workshops students will increase their team-work skills and will be encouraged to build positive relationships with other students on the programme. </p>
   <h5>Confidence</h5>
@@ -160,6 +161,15 @@
   zone and test their resilience.</p> 
   </div>
   </div>
+</div>
+<div class="tab-pane different" id="testimonials">
+  <h3>What people say about us</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 <div class="tab-pane" id="story">
   <h3>Book a workshop</h3>
@@ -170,19 +180,31 @@
     <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Enter your full name">
   </div>
   <div class="form-group">
+    <label for="exampleInputEmail1">Position</label>
+    <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Enter your position">
+  </div>
+  <div class="form-group">
     <label for="exampleInputPassword1">Name and postcode of school</label>
     <input type="school" class="form-control" id="exampleInputPassword1" placeholder="Name and postcode of your school">
   </div>
-  <p>Please select which option you would like to book</p>
-  <div class="radio">
+   <div class="form-group">
+    <label for="exampleInputPassword1">Email</label>
+    <input type="school" class="form-control" id="exampleInputPassword1" placeholder="Enter your email address">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Telephone number</label>
+    <input type="school" class="form-control" id="exampleInputPassword1" placeholder="Enter your telephone number">
+  </div>
+  <p>Tick any of the services you are interested in</p>
+  <div class="checkbox">
   <label>
-    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+    <input type="checkbox" value="">
     One-off workshop
   </label>
 </div>
-<div class="radio">
+<div class="checkbox">
   <label>
-    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+    <input type="checkbox" value="">
     Six week workshop
   </label>
 </div>
@@ -192,16 +214,20 @@
   </div>
 
   <div class="form-group">
-    <label for="exampleInputPassword1">Current levels</label>
-    <input type="levels" class="form-control" id="exampleInputPassword1" placeholder="Current levels">
+    <label for="exampleInputPassword1">Year Group</label>
+    <input type="levels" class="form-control" id="exampleInputPassword1" placeholder="Year group of pupils">
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Dates available</label>
     <input type="levels" class="form-control" id="exampleInputPassword1" placeholder="Dates available">
   </div>
-
+ 
   <div class="form-group">
     <label for="exampleInputPassword1">Is there anything else you want us to know?</label>
+    <textarea class="form-control" rows="3"></textarea>
+  </div>
+    <div class="form-group">
+    <label for="exampleInputPassword1">How did you find out about Pasaporte Cultural?</label>
     <textarea class="form-control" rows="3"></textarea>
   </div>
   <button type="submit" class="btn btn-6 btn-default">Submit</button>
@@ -237,6 +263,13 @@
 </section>
 <footer>
   <p>&copy Pasaporte Cultural 2014 </p> 
+   <div class="footer_icons">
+    <ul>
+      <li><a href="https://www.facebook.com/pages/Pasaporte-Cultural/485898001552981?notif_t=fbpage_fan_invite"> <i class="fa fa-facebook-square fa-3x"></i></a></li>
+      <li> <a href="#"><i class="fa fa-youtube-square fa-3x"></i></a></li>
+      <li><a href="https://twitter.com/PasaporteC"><i class="fa fa-twitter fa-3x"></i></a></li>
+    </ul>
+  </div>
 </footer>
 </div><!-- wrap -->
 
