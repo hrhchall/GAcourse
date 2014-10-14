@@ -574,9 +574,9 @@ h4 {
     border-left:none;
 }
 
-.fa-quote-left  {
+#vision .fa-quote-left  {
   color: #FF134B;
-    font-size:1.8em;
+    font-size:2.6em;
     border-left:none;
 }
 
@@ -883,10 +883,21 @@ p {
   font-size: 1.1em;
 }
 
+#testimonials h3 {
+  margin-bottom:30px;
+}
 
+.fa-quote-right {
+  float:right;
+}
 
+#testimonials blockquote:nth-child(odd) {
+  color:#05B8CC;
+}
 
-
+#testimonials blockquote:nth-child(even) {
+  color:#FF134B;
+}
 
 
 
